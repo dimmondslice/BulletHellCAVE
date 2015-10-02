@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour 
 {
-    public Vector3 speed;
+    public float speed;
     public Rigidbody rb;
     public Transform player;
     
@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
         player = FindObjectOfType<CharacterHead>().transform;
 
         speed *= Random.Range(5, 10) / 7.5f;
-        rb.velocity = speed;
+        rb.velocity = transform.forward;
     }
     void OnTriggerEnter(Collider other)
     {

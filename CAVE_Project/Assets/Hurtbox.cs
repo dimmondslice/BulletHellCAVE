@@ -5,17 +5,22 @@ public class Hurtbox : MonoBehaviour
 {
     public CharacterHead charHead;
 
+	public BulletSpawner[] spawners;
+
     void Awake()
     {
         charHead = GetComponentInParent<CharacterHead>();
+		spawners = FindObjectsOfType<BulletSpawner>();
     }
     void OnTriggerEnter(Collider other)
-    {
-        
+	{   
         if(other.tag == "Bullet")
         {
-            print("hit");
-            charHead.Hit(34);
+			charHead.Hit(100);
+            foreach(var spawn in spawners)
+			{
+				spawn.Reset();
+			}
         }
     }
 }

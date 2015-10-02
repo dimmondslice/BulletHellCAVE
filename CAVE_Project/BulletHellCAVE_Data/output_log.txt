@@ -1,0 +1,2622 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680 (ID=0x1180)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.045 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 5760x1080 60Hz; virtual: 5760x1080 at 0,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\User\Documents\BulletHellCAVE\CAVE_Project\BulletHellCAVE_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1b9c -> priority: 1 
+  Thread -> id: 11fc -> priority: 1 
+hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.232298 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 562.
+Total: 0.351080 ms (FindLiveObjects: 0.035693 ms CreateObjectMapping: 0.026331 ms MarkObjects: 0.279109 ms  DeleteObjects: 0.009362 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.133410 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 712.
+Total: 0.358102 ms (FindLiveObjects: 0.041837 ms CreateObjectMapping: 0.023697 ms MarkObjects: 0.282912 ms  DeleteObjects: 0.008777 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.155353 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 862.
+Total: 0.462548 ms (FindLiveObjects: 0.055880 ms CreateObjectMapping: 0.042129 ms MarkObjects: 0.351958 ms  DeleteObjects: 0.011995 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.086307 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1012.
+Total: 0.257459 ms (FindLiveObjects: 0.029549 ms CreateObjectMapping: 0.023405 ms MarkObjects: 0.198360 ms  DeleteObjects: 0.005851 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.098595 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1162.
+Total: 0.279109 ms (FindLiveObjects: 0.037156 ms CreateObjectMapping: 0.020772 ms MarkObjects: 0.214744 ms  DeleteObjects: 0.006436 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.099765 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1312.
+Total: 0.288763 ms (FindLiveObjects: 0.040959 ms CreateObjectMapping: 0.020772 ms MarkObjects: 0.220595 ms  DeleteObjects: 0.006143 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.104446 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1462.
+Total: 0.314217 ms (FindLiveObjects: 0.046810 ms CreateObjectMapping: 0.023405 ms MarkObjects: 0.236979 ms  DeleteObjects: 0.006436 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.174077 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 0.550904 ms (FindLiveObjects: 0.085722 ms CreateObjectMapping: 0.035693 ms MarkObjects: 0.417493 ms  DeleteObjects: 0.011117 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.179051 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1762.
+Total: 0.629604 ms (FindLiveObjects: 0.090403 ms CreateObjectMapping: 0.074604 ms MarkObjects: 0.452601 ms  DeleteObjects: 0.011410 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.191631 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 0.360735 ms (FindLiveObjects: 0.050906 ms CreateObjectMapping: 0.033352 ms MarkObjects: 0.270039 ms  DeleteObjects: 0.006143 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.111760 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 0.385018 ms (FindLiveObjects: 0.061146 ms CreateObjectMapping: 0.034815 ms MarkObjects: 0.282034 ms  DeleteObjects: 0.007021 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.120830 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 0.400524 ms (FindLiveObjects: 0.064364 ms CreateObjectMapping: 0.033060 ms MarkObjects: 0.295492 ms  DeleteObjects: 0.007021 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.122293 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 0.416615 ms (FindLiveObjects: 0.068168 ms CreateObjectMapping: 0.033060 ms MarkObjects: 0.308073 ms  DeleteObjects: 0.007021 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.131947 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 0.445872 ms (FindLiveObjects: 0.074019 ms CreateObjectMapping: 0.035985 ms MarkObjects: 0.327675 ms  DeleteObjects: 0.007314 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.137506 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 0.454357 ms (FindLiveObjects: 0.076360 ms CreateObjectMapping: 0.033937 ms MarkObjects: 0.336159 ms  DeleteObjects: 0.007606 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.143650 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2812.
+Total: 0.480102 ms (FindLiveObjects: 0.080748 ms CreateObjectMapping: 0.033352 ms MarkObjects: 0.357517 ms  DeleteObjects: 0.007899 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.147161 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2962.
+Total: 0.497949 ms (FindLiveObjects: 0.083674 ms CreateObjectMapping: 0.033937 ms MarkObjects: 0.371560 ms  DeleteObjects: 0.008484 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.150379 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3112.
+Total: 0.508774 ms (FindLiveObjects: 0.087770 ms CreateObjectMapping: 0.035693 ms MarkObjects: 0.376826 ms  DeleteObjects: 0.008191 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.154475 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 0.527498 ms (FindLiveObjects: 0.091866 ms CreateObjectMapping: 0.034230 ms MarkObjects: 0.392625 ms  DeleteObjects: 0.008191 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.164130 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3412.
+Total: 0.550904 ms (FindLiveObjects: 0.094791 ms CreateObjectMapping: 0.034230 ms MarkObjects: 0.412812 ms  DeleteObjects: 0.008484 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.167933 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3562.
+Total: 0.514333 ms (FindLiveObjects: 0.083674 ms CreateObjectMapping: 0.060853 ms MarkObjects: 0.362198 ms  DeleteObjects: 0.007314 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.152720 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 0.513455 ms (FindLiveObjects: 0.082211 ms CreateObjectMapping: 0.050029 ms MarkObjects: 0.373315 ms  DeleteObjects: 0.007606 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.172322 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 0.635456 ms (FindLiveObjects: 0.106787 ms CreateObjectMapping: 0.060853 ms MarkObjects: 0.458160 ms  DeleteObjects: 0.009362 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.174955 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4012.
+Total: 0.644525 ms (FindLiveObjects: 0.104446 ms CreateObjectMapping: 0.060268 ms MarkObjects: 0.470448 ms  DeleteObjects: 0.009362 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.179928 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4162.
+Total: 0.590108 ms (FindLiveObjects: 0.124633 ms CreateObjectMapping: 0.049443 ms MarkObjects: 0.407838 ms  DeleteObjects: 0.007899 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.188705 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4312.
+Total: 0.638381 ms (FindLiveObjects: 0.112053 ms CreateObjectMapping: 0.054710 ms MarkObjects: 0.461963 ms  DeleteObjects: 0.009069 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.185780 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4462.
+Total: 0.644525 ms (FindLiveObjects: 0.113223 ms CreateObjectMapping: 0.054124 ms MarkObjects: 0.468107 ms  DeleteObjects: 0.009069 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.208600 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4612.
+Total: 0.723518 ms (FindLiveObjects: 0.129022 ms CreateObjectMapping: 0.061731 ms MarkObjects: 0.522525 ms  DeleteObjects: 0.010239 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.206259 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4762.
+Total: 0.684022 ms (FindLiveObjects: 0.122878 ms CreateObjectMapping: 0.054124 ms MarkObjects: 0.497364 ms  DeleteObjects: 0.009362 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.202456 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4912.
+Total: 0.636626 ms (FindLiveObjects: 0.115271 ms CreateObjectMapping: 0.049736 ms MarkObjects: 0.462548 ms  DeleteObjects: 0.008777 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.230250 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5062.
+Total: 0.781154 ms (FindLiveObjects: 0.142772 ms CreateObjectMapping: 0.063194 ms MarkObjects: 0.563777 ms  DeleteObjects: 0.010824 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.250730 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5212.
+Total: 0.862780 ms (FindLiveObjects: 0.220010 ms CreateObjectMapping: 0.050614 ms MarkObjects: 0.578698 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.191924 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5362.
+Total: 0.651254 ms (FindLiveObjects: 0.122878 ms CreateObjectMapping: 0.050321 ms MarkObjects: 0.468107 ms  DeleteObjects: 0.009654 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.197482 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5512.
+Total: 0.683144 ms (FindLiveObjects: 0.127559 ms CreateObjectMapping: 0.049736 ms MarkObjects: 0.495609 ms  DeleteObjects: 0.009947 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.193972 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5662.
+Total: 0.874191 ms (FindLiveObjects: 0.215622 ms CreateObjectMapping: 0.053247 ms MarkObjects: 0.591863 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.202456 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5812.
+Total: 0.688118 ms (FindLiveObjects: 0.135458 ms CreateObjectMapping: 0.050029 ms MarkObjects: 0.492098 ms  DeleteObjects: 0.010239 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.201578 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5962.
+Total: 0.681974 ms (FindLiveObjects: 0.132825 ms CreateObjectMapping: 0.049736 ms MarkObjects: 0.489172 ms  DeleteObjects: 0.009654 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.223813 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 6112.
+Total: 0.920416 ms (FindLiveObjects: 0.222936 ms CreateObjectMapping: 0.052954 ms MarkObjects: 0.631067 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.206845 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 6262.
+Total: 0.733466 ms (FindLiveObjects: 0.144235 ms CreateObjectMapping: 0.050321 ms MarkObjects: 0.528083 ms  DeleteObjects: 0.010532 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.206552 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 6412.
+Total: 0.728492 ms (FindLiveObjects: 0.141602 ms CreateObjectMapping: 0.050029 ms MarkObjects: 0.526036 ms  DeleteObjects: 0.010239 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.211526 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 6562.
+Total: 0.745754 ms (FindLiveObjects: 0.143943 ms CreateObjectMapping: 0.049736 ms MarkObjects: 0.540956 ms  DeleteObjects: 0.010824 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.215329 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 6712.
+Total: 0.787006 ms (FindLiveObjects: 0.155645 ms CreateObjectMapping: 0.052662 ms MarkObjects: 0.567287 ms  DeleteObjects: 0.010824 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.227324 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 6862.
+Total: 0.793735 ms (FindLiveObjects: 0.158278 ms CreateObjectMapping: 0.050321 ms MarkObjects: 0.574602 ms  DeleteObjects: 0.010532 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.218840 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7012.
+Total: 0.783495 ms (FindLiveObjects: 0.151549 ms CreateObjectMapping: 0.050614 ms MarkObjects: 0.570506 ms  DeleteObjects: 0.010532 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.239612 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7162.
+Total: 0.870095 ms (FindLiveObjects: 0.154475 ms CreateObjectMapping: 0.110005 ms MarkObjects: 0.593911 ms  DeleteObjects: 0.011410 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.267991 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7312.
+Total: 1.081036 ms (FindLiveObjects: 0.196897 ms CreateObjectMapping: 0.113223 ms MarkObjects: 0.756871 ms  DeleteObjects: 0.013458 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.225569 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7462.
+Total: 0.885601 ms (FindLiveObjects: 0.155060 ms CreateObjectMapping: 0.091573 ms MarkObjects: 0.627556 ms  DeleteObjects: 0.010824 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.217670 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7612.
+Total: 0.938555 ms (FindLiveObjects: 0.165007 ms CreateObjectMapping: 0.094206 ms MarkObjects: 0.667346 ms  DeleteObjects: 0.011702 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.225861 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7762.
+Total: 0.924512 ms (FindLiveObjects: 0.159741 ms CreateObjectMapping: 0.092451 ms MarkObjects: 0.660616 ms  DeleteObjects: 0.011410 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.235516 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 7912.
+Total: 0.964301 ms (FindLiveObjects: 0.172322 ms CreateObjectMapping: 0.092158 ms MarkObjects: 0.687533 ms  DeleteObjects: 0.011702 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.243708 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8062.
+Total: 1.047098 ms (FindLiveObjects: 0.184024 ms CreateObjectMapping: 0.100350 ms MarkObjects: 0.749557 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.276183 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8212.
+Total: 1.022230 ms (FindLiveObjects: 0.185780 ms CreateObjectMapping: 0.094499 ms MarkObjects: 0.729077 ms  DeleteObjects: 0.012287 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.253655 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8362.
+Total: 1.032469 ms (FindLiveObjects: 0.196897 ms CreateObjectMapping: 0.092743 ms MarkObjects: 0.730247 ms  DeleteObjects: 0.012287 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.260677 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8512.
+Total: 1.095957 ms (FindLiveObjects: 0.206552 ms CreateObjectMapping: 0.094499 ms MarkObjects: 0.781447 ms  DeleteObjects: 0.013165 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.260970 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8662.
+Total: 1.077817 ms (FindLiveObjects: 0.206845 ms CreateObjectMapping: 0.093914 ms MarkObjects: 0.763893 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.265065 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8812.
+Total: 1.082499 ms (FindLiveObjects: 0.206845 ms CreateObjectMapping: 0.092451 ms MarkObjects: 0.770037 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.268284 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 8962.
+Total: 1.106196 ms (FindLiveObjects: 0.212403 ms CreateObjectMapping: 0.092158 ms MarkObjects: 0.788468 ms  DeleteObjects: 0.012872 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.268284 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9112.
+Total: 1.141305 ms (FindLiveObjects: 0.223813 ms CreateObjectMapping: 0.092743 ms MarkObjects: 0.810996 ms  DeleteObjects: 0.013458 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.275305 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9262.
+Total: 1.163247 ms (FindLiveObjects: 0.224691 ms CreateObjectMapping: 0.095376 ms MarkObjects: 0.829428 ms  DeleteObjects: 0.013458 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.287301 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9412.
+Total: 1.282907 ms (FindLiveObjects: 0.277353 ms CreateObjectMapping: 0.093621 ms MarkObjects: 0.896718 ms  DeleteObjects: 0.014628 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.287301 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9562.
+Total: 1.190748 ms (FindLiveObjects: 0.226739 ms CreateObjectMapping: 0.092451 ms MarkObjects: 0.857222 ms  DeleteObjects: 0.014043 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.288471 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.229660 ms (FindLiveObjects: 0.246634 ms CreateObjectMapping: 0.095376 ms MarkObjects: 0.873020 ms  DeleteObjects: 0.014043 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.291982 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9862.
+Total: 1.249847 ms (FindLiveObjects: 0.248389 ms CreateObjectMapping: 0.093036 ms MarkObjects: 0.893500 ms  DeleteObjects: 0.014335 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.290811 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10012.
+Total: 1.247214 ms (FindLiveObjects: 0.242830 ms CreateObjectMapping: 0.092743 ms MarkObjects: 0.897011 ms  DeleteObjects: 0.014335 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.291397 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10162.
+Total: 1.331181 ms (FindLiveObjects: 0.278816 ms CreateObjectMapping: 0.095084 ms MarkObjects: 0.941774 ms  DeleteObjects: 0.014920 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.300759 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10312.
+Total: 1.306312 ms (FindLiveObjects: 0.261847 ms CreateObjectMapping: 0.093036 ms MarkObjects: 0.935922 ms  DeleteObjects: 0.015213 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.297248 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10462.
+Total: 1.319478 ms (FindLiveObjects: 0.266236 ms CreateObjectMapping: 0.092743 ms MarkObjects: 0.945284 ms  DeleteObjects: 0.014920 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.304855 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10612.
+Total: 1.372140 ms (FindLiveObjects: 0.287593 ms CreateObjectMapping: 0.093036 ms MarkObjects: 0.974834 ms  DeleteObjects: 0.016091 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.328260 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10762.
+Total: 1.364826 ms (FindLiveObjects: 0.275013 ms CreateObjectMapping: 0.096547 ms MarkObjects: 0.977759 ms  DeleteObjects: 0.015213 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.315972 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10912.
+Total: 1.406078 ms (FindLiveObjects: 0.291982 ms CreateObjectMapping: 0.093328 ms MarkObjects: 1.004676 ms  DeleteObjects: 0.015506 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.320653 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11062.
+Total: 1.416610 ms (FindLiveObjects: 0.291397 ms CreateObjectMapping: 0.093036 ms MarkObjects: 1.016086 ms  DeleteObjects: 0.015798 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.313047 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11212.
+Total: 1.466347 ms (FindLiveObjects: 0.310121 ms CreateObjectMapping: 0.095669 ms MarkObjects: 1.043880 ms  DeleteObjects: 0.016383 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.317142 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11362.
+Total: 1.557335 ms (FindLiveObjects: 0.329430 ms CreateObjectMapping: 0.093621 ms MarkObjects: 1.114388 ms  DeleteObjects: 0.019602 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.320068 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11512.
+Total: 1.502333 ms (FindLiveObjects: 0.325919 ms CreateObjectMapping: 0.093914 ms MarkObjects: 1.065237 ms  DeleteObjects: 0.016968 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.324749 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11662.
+Total: 1.531589 ms (FindLiveObjects: 0.333234 ms CreateObjectMapping: 0.093621 ms MarkObjects: 1.087472 ms  DeleteObjects: 0.016968 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.321824 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11812.
+Total: 1.540366 ms (FindLiveObjects: 0.332649 ms CreateObjectMapping: 0.095669 ms MarkObjects: 1.095079 ms  DeleteObjects: 0.016968 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.327382 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 11962.
+Total: 1.626089 ms (FindLiveObjects: 0.334111 ms CreateObjectMapping: 0.109127 ms MarkObjects: 1.165295 ms  DeleteObjects: 0.017261 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.326212 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12112.
+Total: 1.633403 ms (FindLiveObjects: 0.335574 ms CreateObjectMapping: 0.094791 ms MarkObjects: 1.177290 ms  DeleteObjects: 0.025160 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.327675 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12262.
+Total: 1.653590 ms (FindLiveObjects: 0.333819 ms CreateObjectMapping: 0.097424 ms MarkObjects: 1.196600 ms  DeleteObjects: 0.025453 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.331771 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12412.
+Total: 1.625211 ms (FindLiveObjects: 0.353421 ms CreateObjectMapping: 0.093621 ms MarkObjects: 1.155055 ms  DeleteObjects: 0.022820 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.330601 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12562.
+Total: 1.617019 ms (FindLiveObjects: 0.339670 ms CreateObjectMapping: 0.094791 ms MarkObjects: 1.162662 ms  DeleteObjects: 0.019602 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.337915 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12712.
+Total: 1.651249 ms (FindLiveObjects: 0.347862 ms CreateObjectMapping: 0.094499 ms MarkObjects: 1.188408 ms  DeleteObjects: 0.019894 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.337622 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12862.
+Total: 1.662952 ms (FindLiveObjects: 0.348740 ms CreateObjectMapping: 0.093621 ms MarkObjects: 1.200403 ms  DeleteObjects: 0.019309 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.342011 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13012.
+Total: 1.689576 ms (FindLiveObjects: 0.363076 ms CreateObjectMapping: 0.094206 ms MarkObjects: 1.210936 ms  DeleteObjects: 0.020772 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.342888 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13162.
+Total: 2.009644 ms (FindLiveObjects: 0.405790 ms CreateObjectMapping: 0.098010 ms MarkObjects: 1.476879 ms  DeleteObjects: 0.028086 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.345229 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13312.
+Total: 1.707130 ms (FindLiveObjects: 0.354884 ms CreateObjectMapping: 0.100935 ms MarkObjects: 1.230830 ms  DeleteObjects: 0.020187 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.347277 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13462.
+Total: 1.751307 ms (FindLiveObjects: 0.363076 ms CreateObjectMapping: 0.093914 ms MarkObjects: 1.274715 ms  DeleteObjects: 0.018724 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.347862 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13612.
+Total: 1.757744 ms (FindLiveObjects: 0.380337 ms CreateObjectMapping: 0.094206 ms MarkObjects: 1.261550 ms  DeleteObjects: 0.021064 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.360442 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13762.
+Total: 1.770617 ms (FindLiveObjects: 0.377119 ms CreateObjectMapping: 0.098302 ms MarkObjects: 1.273545 ms  DeleteObjects: 0.021357 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.358394 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13912.
+Total: 1.795192 ms (FindLiveObjects: 0.372438 ms CreateObjectMapping: 0.094499 ms MarkObjects: 1.305727 ms  DeleteObjects: 0.022235 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.363953 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14062.
+Total: 1.820646 ms (FindLiveObjects: 0.390284 ms CreateObjectMapping: 0.095669 ms MarkObjects: 1.313042 ms  DeleteObjects: 0.021357 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.362198 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14212.
+Total: 1.896421 ms (FindLiveObjects: 0.388529 ms CreateObjectMapping: 0.094206 ms MarkObjects: 1.386183 ms  DeleteObjects: 0.026623 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.361320 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14362.
+Total: 1.858972 ms (FindLiveObjects: 0.401694 ms CreateObjectMapping: 0.098595 ms MarkObjects: 1.336739 ms  DeleteObjects: 0.021649 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.362783 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14512.
+Total: 2.072254 ms (FindLiveObjects: 0.416323 ms CreateObjectMapping: 0.215329 ms MarkObjects: 1.418073 ms  DeleteObjects: 0.022235 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.366586 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14662.
+Total: 1.962248 ms (FindLiveObjects: 0.387651 ms CreateObjectMapping: 0.177588 ms MarkObjects: 1.374773 ms  DeleteObjects: 0.021942 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.353713 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14812.
+Total: 1.993846 ms (FindLiveObjects: 0.402280 ms CreateObjectMapping: 0.181684 ms MarkObjects: 1.387061 ms  DeleteObjects: 0.022235 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.356346 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14962.
+Total: 2.015788 ms (FindLiveObjects: 0.410764 ms CreateObjectMapping: 0.177003 ms MarkObjects: 1.398764 ms  DeleteObjects: 0.028964 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.359857 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15112.
+Total: 2.017836 ms (FindLiveObjects: 0.401987 ms CreateObjectMapping: 0.177295 ms MarkObjects: 1.414855 ms  DeleteObjects: 0.023405 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.359857 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15262.
+Total: 2.039194 ms (FindLiveObjects: 0.414567 ms CreateObjectMapping: 0.177003 ms MarkObjects: 1.423632 ms  DeleteObjects: 0.023405 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.364538 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15412.
+Total: 2.080446 ms (FindLiveObjects: 0.413982 ms CreateObjectMapping: 0.181391 ms MarkObjects: 1.461373 ms  DeleteObjects: 0.023405 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.369219 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15562.
+Total: 2.073424 ms (FindLiveObjects: 0.412519 ms CreateObjectMapping: 0.177295 ms MarkObjects: 1.459618 ms  DeleteObjects: 0.023697 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.373901 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15712.
+Total: 2.147151 ms (FindLiveObjects: 0.454064 ms CreateObjectMapping: 0.178173 ms MarkObjects: 1.490922 ms  DeleteObjects: 0.023405 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.468400 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15862.
+Total: 2.030709 ms (FindLiveObjects: 0.385603 ms CreateObjectMapping: 0.179636 ms MarkObjects: 1.443819 ms  DeleteObjects: 0.021064 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.376241 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16012.
+Total: 1.901394 ms (FindLiveObjects: 0.329430 ms CreateObjectMapping: 0.177880 ms MarkObjects: 1.373310 ms  DeleteObjects: 0.020479 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.375948 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16162.
+Total: 1.962834 ms (FindLiveObjects: 0.352836 ms CreateObjectMapping: 0.177295 ms MarkObjects: 1.411637 ms  DeleteObjects: 0.020772 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.384433 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16312.
+Total: 1.995016 ms (FindLiveObjects: 0.358394 ms CreateObjectMapping: 0.179636 ms MarkObjects: 1.435042 ms  DeleteObjects: 0.021357 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378874 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16462.
+Total: 2.038901 ms (FindLiveObjects: 0.373023 ms CreateObjectMapping: 0.178466 ms MarkObjects: 1.465762 ms  DeleteObjects: 0.021357 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.429488 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16612.
+Total: 2.053237 ms (FindLiveObjects: 0.385603 ms CreateObjectMapping: 0.177295 ms MarkObjects: 1.468102 ms  DeleteObjects: 0.021942 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.435340 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16762.
+Total: 2.073131 ms (FindLiveObjects: 0.394088 ms CreateObjectMapping: 0.177588 ms MarkObjects: 1.478927 ms  DeleteObjects: 0.022235 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.462841 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16912.
+Total: 2.186647 ms (FindLiveObjects: 0.435925 ms CreateObjectMapping: 0.180514 ms MarkObjects: 1.546803 ms  DeleteObjects: 0.022820 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.441484 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17062.
+Total: 2.110287 ms (FindLiveObjects: 0.401694 ms CreateObjectMapping: 0.177003 ms MarkObjects: 1.508476 ms  DeleteObjects: 0.022820 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.473666 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17212.
+Total: 2.137789 ms (FindLiveObjects: 0.387944 ms CreateObjectMapping: 0.177295 ms MarkObjects: 1.550314 ms  DeleteObjects: 0.021649 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.455234 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17362.
+Total: 2.142470 ms (FindLiveObjects: 0.398476 ms CreateObjectMapping: 0.181684 ms MarkObjects: 1.539489 ms  DeleteObjects: 0.022527 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.483613 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17512.
+Total: 2.194839 ms (FindLiveObjects: 0.419248 ms CreateObjectMapping: 0.178173 ms MarkObjects: 1.574304 ms  DeleteObjects: 0.023112 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.458452 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17662.
+Total: 2.197180 ms (FindLiveObjects: 0.416030 ms CreateObjectMapping: 0.177003 ms MarkObjects: 1.581033 ms  DeleteObjects: 0.022820 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.457867 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17812.
+Total: 2.162950 ms (FindLiveObjects: 0.401402 ms CreateObjectMapping: 0.178173 ms MarkObjects: 1.560553 ms  DeleteObjects: 0.022235 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.490342 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 17962.
+Total: 2.251597 ms (FindLiveObjects: 0.419248 ms CreateObjectMapping: 0.180514 ms MarkObjects: 1.628722 ms  DeleteObjects: 0.022820 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.484784 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 18112.
+Total: 2.247209 ms (FindLiveObjects: 0.430951 ms CreateObjectMapping: 0.179343 ms MarkObjects: 1.613216 ms  DeleteObjects: 0.023405 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.621120 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 18262.
+Total: 2.744281 ms (FindLiveObjects: 0.743413 ms CreateObjectMapping: 0.178466 ms MarkObjects: 1.796655 ms  DeleteObjects: 0.025160 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.724981 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 18412.
+Total: 4.286696 ms (FindLiveObjects: 1.061726 ms CreateObjectMapping: 0.227617 ms MarkObjects: 2.965462 ms  DeleteObjects: 0.030719 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.499412 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 18562.
+Total: 2.302212 ms (FindLiveObjects: 0.436510 ms CreateObjectMapping: 0.178466 ms MarkObjects: 1.663245 ms  DeleteObjects: 0.023697 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.516673 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 18712.
+Total: 2.310111 ms (FindLiveObjects: 0.434755 ms CreateObjectMapping: 0.177880 ms MarkObjects: 1.673192 ms  DeleteObjects: 0.023697 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.526913 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 18862.
+Total: 2.346389 ms (FindLiveObjects: 0.447627 ms CreateObjectMapping: 0.178173 ms MarkObjects: 1.695720 ms  DeleteObjects: 0.024283 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.497949 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19012.
+Total: 2.389689 ms (FindLiveObjects: 0.469863 ms CreateObjectMapping: 0.178173 ms MarkObjects: 1.716492 ms  DeleteObjects: 0.024868 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.532179 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19162.
+Total: 2.365406 ms (FindLiveObjects: 0.451723 ms CreateObjectMapping: 0.178466 ms MarkObjects: 1.710640 ms  DeleteObjects: 0.024283 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.561436 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19312.
+Total: 2.377109 ms (FindLiveObjects: 0.442654 ms CreateObjectMapping: 0.177880 ms MarkObjects: 1.730243 ms  DeleteObjects: 0.025745 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.506726 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19462.
+Total: 3.749835 ms (FindLiveObjects: 1.011697 ms CreateObjectMapping: 0.182561 ms MarkObjects: 2.520467 ms  DeleteObjects: 0.034230 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.133990 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19612.
+Total: 5.220570 ms (FindLiveObjects: 1.064359 ms CreateObjectMapping: 0.409594 ms MarkObjects: 3.687810 ms  DeleteObjects: 0.057635 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.510822 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19762.
+Total: 2.497939 ms (FindLiveObjects: 0.465767 ms CreateObjectMapping: 0.179636 ms MarkObjects: 1.823279 ms  DeleteObjects: 0.028964 ms)
+
+Exception: Can't create server at port 6666
+  at UnityOSC.OSCServer.Connect () [0x00000] in <filename unknown>:0 
+  at UnityOSC.OSCServer..ctor (Int32 localPort) [0x00000] in <filename unknown>:0 
+  at OSCHandler.CreateServer (System.String serverId, Int32 port) [0x00000] in <filename unknown>:0 
+  at OSCHandler.Init () [0x00000] in <filename unknown>:0 
+  at OSCEventListener.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OSCEventListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.107659 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 19912.
+Total: 2.637201 ms (FindLiveObjects: 0.578990 ms CreateObjectMapping: 0.181684 ms MarkObjects: 1.830886 ms  DeleteObjects: 0.045055 ms)
+

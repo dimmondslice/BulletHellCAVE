@@ -7,7 +7,9 @@ public class BulletSpawner : MonoBehaviour
     public float coolDown = 3f;
     public float chance = .5f;
 
-    public Transform Bullet;
+    public Transform BulletPrefab;
+
+	public string side;
 
 	void Update () 
     {
@@ -17,10 +19,21 @@ public class BulletSpawner : MonoBehaviour
             timer = 0;
             if(Random.Range(0, 3) == 0)
             {
-                Instantiate(Bullet, transform.position, Quaternion.identity);
-
-                 if(coolDown > 1.3 ) coolDown -= .1f;
+                GameObject b = Instantiate(BulletPrefab, transform.position, Quaternion.Euler(transform.forward)) as GameObject;
+				/*
+				if(side == "left")
+					b.GetComponent<Bullet>().speed = new Vector3(3,0,0);
+				if(side == "right")
+					b.GetComponent<Bullet>().speed = new Vector3(-3,0,0);
+				*/
+                 if(coolDown > 1.15 )
+					coolDown -= .15f;
             }
         }
+	}
+	public void Reset()
+	{
+		timer= 0;
+		coolDown=3f;
 	}
 }
