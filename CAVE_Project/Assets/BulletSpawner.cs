@@ -20,12 +20,6 @@ public class BulletSpawner : MonoBehaviour
             if(Random.Range(0, 3) == 0)
             {
                 GameObject b = Instantiate(BulletPrefab, transform.position, Quaternion.Euler(transform.forward)) as GameObject;
-				/*
-				if(side == "left")
-					b.GetComponent<Bullet>().speed = new Vector3(3,0,0);
-				if(side == "right")
-					b.GetComponent<Bullet>().speed = new Vector3(-3,0,0);
-				*/
                  if(coolDown > 1.15 )
 					coolDown -= .15f;
             }
