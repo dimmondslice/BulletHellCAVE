@@ -34,7 +34,9 @@ public class ViewUpdate : MonoBehaviour {
 
 	}
 	
-	public void UpdateTrackerPosition(float x, float y, float z){
+	public void UpdateTrackerPosition(float x, float y, float z)
+    {
+
 		trackerPosition.localPosition = new Vector3(x, y, z);
 	}
 	

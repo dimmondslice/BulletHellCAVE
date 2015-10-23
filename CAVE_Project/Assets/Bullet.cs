@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        player = FindObjectOfType<CharacterHead>().transform;
+        //player = FindObjectOfType<CharacterHead>().transform;
 
 
         speed *= Random.Range(5, 10) / 7.5f;
