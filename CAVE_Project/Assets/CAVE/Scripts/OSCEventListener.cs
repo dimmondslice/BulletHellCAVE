@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class OSCEventListener : MonoBehaviour {
 	
-	PointerControl pointerRoot;
-	ViewUpdate projectionRoot;
+	public PointerControl pointerRoot;
+	public ViewUpdate projectionRoot;
 
 	private static OSCEventListener osc;
 	public static OSCEventListener OSC
@@ -23,8 +23,7 @@ public class OSCEventListener : MonoBehaviour {
 	{
 
 		OSCHandler.Instance.Init(); //init OSC
-		projectionRoot = GameObject.Find("ProjectionRoot").GetComponent<ViewUpdate>();
-		pointerRoot = GameObject.Find("PointerRoot").GetComponent<PointerControl>();
+		
 		DontDestroyOnLoad(gameObject);
 	}
 
@@ -36,8 +35,20 @@ public class OSCEventListener : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
-		if (projectionRoot.whichCameraToViewFrom == ViewUpdate.viewType.center){
+        if (projectionRoot == null)
+        {
+            if (GameObject.Find("ProjectionRoot"))
+            {
+                print("yo");
+                projectionRoot = GameObject.Find("ProjectionRoot").GetComponent<ViewUpdate>();
+            }
+        }
+        if (pointerRoot == null)
+        {
+            if(GameObject.Find("PointerRoot"))
+                pointerRoot = GameObject.Find("PointerRoot").GetComponent<PointerControl>();
+        }
+        if (projectionRoot.whichCameraToViewFrom == ViewUpdate.viewType.center){
 			/*
 			OSCHandler.Instance.UpdateLogs();
 
@@ -64,10 +75,7 @@ public class OSCEventListener : MonoBehaviour {
 				// rotate Z = roll
 				if (pointerRoot)
 					pointerRoot.UpdatePointer (float.Parse(words[11]), float.Parse(words[13]), float.Parse(words[12]), float.Parse(words[15]), float.Parse(words[14]), float.Parse(words[16]));
-			}
-			
-			
-			
+			}	
 		}
 	}
 }

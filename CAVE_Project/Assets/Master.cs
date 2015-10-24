@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 
-public class Master : MonoBehaviour 
+public class Master : NetworkBehaviour 
 {
     public List<Transform> spawners;
     public Transform bulletPrefab;
@@ -33,6 +34,7 @@ public class Master : MonoBehaviour
         int ran = Random.Range(0, spawners.Count-1);
         Transform spawn = spawners[ran];
         Transform bullet = Instantiate(bulletPrefab, spawn.position, Quaternion.identity) as Transform;
+        NetworkServer.Spawn(bullet.gameObject);
         bullet.transform.forward = spawn.forward;
         bullet.parent = spawn;
         bullet.GetComponent<Bullet>().speed *= (3 / spawnRate);

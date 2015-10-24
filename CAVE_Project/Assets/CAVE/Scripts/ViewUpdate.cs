@@ -1,8 +1,9 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
 
-public class ViewUpdate : MonoBehaviour {
+public class ViewUpdate : NetworkBehaviour {
 	
 	//public Vector3 trackerPosition = new Vector3(0f,1.5f,0f);
 	public Transform trackerPosition;
@@ -28,7 +29,6 @@ public class ViewUpdate : MonoBehaviour {
 			}
 			else {
 				menuToggle = true;
-
 			}
 		}
 
@@ -36,6 +36,7 @@ public class ViewUpdate : MonoBehaviour {
 	
 	public void UpdateTrackerPosition(float x, float y, float z)
     {
+        if (!isLocalPlayer) return;
 
 		trackerPosition.localPosition = new Vector3(x, y, z);
 	}
