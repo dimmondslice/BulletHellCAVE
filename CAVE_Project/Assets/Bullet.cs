@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class Bullet : MonoBehaviour 
+public class Bullet : NetworkBehaviour 
 {
     public float speed;
+    public float maxSpeed;
+    public float force;
     public Rigidbody rb;
     public Transform player;
     
@@ -18,9 +21,14 @@ public class Bullet : MonoBehaviour
     }
     void Update()
     {
-        //sorta har codey, just destroy the cube if it's gone past the end of it's track
+        if (!isServer) return;
+
+        //sorta hard codey, just destroy the cube if it's gone past the end of it's track
         if (transform.localPosition.magnitude > 26.5)
             Destroy(gameObject);
+
+        if(rb.velocity.magnitude < maxSpeed )
+            rb.AddForce(transform.forward * force);
     }
     void OnTriggerEnter(Collider other)
     {

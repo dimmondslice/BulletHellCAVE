@@ -8,6 +8,7 @@ public class Master : NetworkBehaviour
     public List<Transform> spawners;
     public Transform bulletPrefab;
     public float spawnRate;
+    public float spawnRateLimit;
 
     void Start()
     {
@@ -16,14 +17,24 @@ public class Master : NetworkBehaviour
         spawners = new List<Transform>();
         foreach (GameObject g in spawnersGO) spawners.Add(g.transform);
 
-        //begin spawning coroutine
-        StartCoroutine(BulletSpawning());
+        
+    }
+    void Update()
+    {
+        if (!isServer) return;
+
+        if(Input.GetKeyUp(KeyCode.Space))
+        {
+            print("started spawning bullets");
+            //begin spawning coroutine
+            StartCoroutine(BulletSpawning());
+        }
     }
 	IEnumerator BulletSpawning ()
     {
         while (true)
         {
-            if (spawnRate > 1.5) spawnRate -= .1f;
+            if (spawnRate > spawnRateLimit) spawnRate -= .1f;
             Spawn();
             yield return new WaitForSeconds(spawnRate);
         }

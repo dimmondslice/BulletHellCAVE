@@ -39,7 +39,6 @@ public class OSCEventListener : MonoBehaviour {
         {
             if (GameObject.Find("ProjectionRoot"))
             {
-                print("yo");
                 projectionRoot = GameObject.Find("ProjectionRoot").GetComponent<ViewUpdate>();
             }
         }
