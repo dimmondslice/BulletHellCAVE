@@ -23,7 +23,7 @@ public class ViewUpdate : NetworkBehaviour {
 	
 	void Update(){
 
-		if (Input.GetKeyDown(KeyCode.M)){
+		if (Input.GetKeyDown(KeyCode.P)){
 			if (menuToggle){
 				menuToggle = false;
 			}
