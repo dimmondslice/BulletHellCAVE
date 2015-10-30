@@ -568,6 +568,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 727980122}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &747278571
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -17.4922256
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.20009422
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.25828135
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 482090, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379940, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e07ffd20ae50c248a046a47409b7835, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &866361916
 GameObject:
   m_ObjectHideFlags: 0
