@@ -23,7 +23,7 @@ public class ViewUpdate : NetworkBehaviour {
 	
 	void Update(){
 
-		if (Input.GetKeyDown(KeyCode.P)){
+		if (Input.GetKeyDown(KeyCode.P)){ 
 			if (menuToggle){
 				menuToggle = false;
 			}
@@ -55,8 +55,8 @@ public class ViewUpdate : NetworkBehaviour {
 				transform.Find("Main Camera-rightL").gameObject.SetActive(false);
 				transform.Find("Main Camera-rightR").gameObject.SetActive(false);
 				whichCameraToViewFrom = viewType.center;
-				Settings.HideAndLockCursor();
-				Network.InitializeServer(4, 12345, false);
+				//Settings.HideAndLockCursor();
+				//Network.InitializeServer(4, 12345, false);
 			}
 			if (GUI.Button(new Rect(180, 50, 150, 20), "Listen as left")){
 				//Debug.Log("Not left yet");
@@ -68,8 +68,8 @@ public class ViewUpdate : NetworkBehaviour {
 				transform.Find("Main Camera-rightL").gameObject.SetActive(false);
 				transform.Find("Main Camera-rightR").gameObject.SetActive(false);
 				whichCameraToViewFrom = viewType.left;
-				Settings.HideAndLockCursor();
-				Network.Connect(ip, port);
+				//Settings.HideAndLockCursor();
+				//Network.Connect(ip, port);
 			}
 			if (GUI.Button(new Rect(180,75,150,20), "Listen as right")){
 				//Debug.Log("Not right yet");
@@ -81,8 +81,8 @@ public class ViewUpdate : NetworkBehaviour {
 				transform.Find("Main Camera-rightL").gameObject.SetActive(true);
 				transform.Find("Main Camera-rightR").gameObject.SetActive(true);
 				whichCameraToViewFrom = viewType.right;
-				Settings.HideAndLockCursor();
-				Network.Connect(ip, port);
+				//Settings.HideAndLockCursor();
+				//Network.Connect(ip, port);
 			}
 		}
 	}
