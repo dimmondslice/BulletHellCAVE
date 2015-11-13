@@ -114,8 +114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawners: []
   bulletPrefab: {fileID: 470152, guid: 6fccad1a0428e75438cd1f13d42ee3c8, type: 2}
-  spawnRate: 4
-  spawnRateLimit: 1.5
+  spawnRate: 3
+  spawnRateLimit: 1.25
 --- !u!4 &66730024
 Transform:
   m_ObjectHideFlags: 0
@@ -532,7 +532,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 654735932}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: -1.62920685e-07}
-  m_LocalPosition: {x: 27.1645622, y: 11.6500683, z: -29.0224857}
+  m_LocalPosition: {x: 27.1645622, y: 11.4799995, z: -29.0224857}
   m_LocalScale: {x: 10000, y: 1, z: 10000}
   m_Children: []
   m_Father: {fileID: 999519198}
