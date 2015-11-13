@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Networking;
 
-public class Master : NetworkBehaviour 
+public class Master : MonoBehaviour
 {
     public List<Transform> spawners;
     public Transform bulletPrefab;
@@ -17,12 +17,10 @@ public class Master : NetworkBehaviour
         spawners = new List<Transform>();
         foreach (GameObject g in spawnersGO) spawners.Add(g.transform);
 
-        
+        print(spawners.Count);
     }
     void Update()
     {
-        if (!isServer) return;
-
         if(Input.GetKeyUp(KeyCode.Space))
         {
             print("started spawning bullets");
@@ -42,10 +40,11 @@ public class Master : NetworkBehaviour
 
     void Spawn()
     {
-        int ran = Random.Range(0, spawners.Count-1);
+        int ran = Random.Range(0, spawners.Count);
+        print(ran);
         Transform spawn = spawners[ran];
         Transform bullet = Instantiate(bulletPrefab, spawn.position, Quaternion.identity) as Transform;
-        NetworkServer.Spawn(bullet.gameObject);
+        //NetworkServer.Spawn(bullet.gameObject);
         bullet.transform.forward = spawn.forward;
         bullet.parent = spawn;
         bullet.GetComponent<Bullet>().speed *= (3 / spawnRate);

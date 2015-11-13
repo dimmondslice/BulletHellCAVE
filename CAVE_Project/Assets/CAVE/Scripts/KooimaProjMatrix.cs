@@ -41,6 +41,7 @@ public class KooimaProjMatrix : MonoBehaviour {
 		
 		//Vector3 offset = new Vector3(0.0f, trackerPosition.localPosition.y, trackerPosition.localPosition.z);
 		Vector3 offset = cam.transform.localPosition;
+
 		Matrix4x4 generatedProjection = KooimaPerspectiveProjection(
 			BottomLeftScreenCorner.localPosition - offset, BottomRightScreenCorner.localPosition - offset, 
 			TopLeftScreenCorner.localPosition - offset, viewingLocation, 

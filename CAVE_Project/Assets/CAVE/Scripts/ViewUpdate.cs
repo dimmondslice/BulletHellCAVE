@@ -36,7 +36,6 @@ public class ViewUpdate : NetworkBehaviour {
 	
 	public void UpdateTrackerPosition(float x, float y, float z)
     {
-        if (!isLocalPlayer) return;
         
         trackerPosition.localPosition = new Vector3(x, y, z);
 	}
