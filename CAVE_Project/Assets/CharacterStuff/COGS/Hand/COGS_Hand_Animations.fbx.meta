@@ -213,6 +213,7 @@ ModelImporter:
     7400014: A_Stop
     7400016: C_Flick
     7400018: Stun
+    7400020: fist
     9500000: //RootNode
     11100000: //RootNode
     13700000: hand_chunk1
@@ -2243,6 +2244,228 @@ ModelImporter:
       firstFrame: 153
       lastFrame: 157
       wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_chunk1
+        weight: 1
+      - path: hand_chunk2
+        weight: 1
+      - path: hand_chunk3
+        weight: 1
+      - path: hand_mesh
+        weight: 1
+      - path: root_CTRL
+        weight: 1
+      - path: root_CTRL/spike_base
+        weight: 1
+      - path: root_CTRL/spike_base/spikeA1
+        weight: 1
+      - path: root_CTRL/spike_base/spikeA1/spikeA2
+        weight: 1
+      - path: root_CTRL/spike_base/spikeB1
+        weight: 1
+      - path: root_CTRL/spike_base/spikeB1/spikeB2
+        weight: 1
+      - path: root_CTRL/spike_base/spikeC1
+        weight: 1
+      - path: root_CTRL/spike_base/spikeC1/spikeC2
+        weight: 1
+      - path: root_CTRL/spike_base/spikeD1
+        weight: 1
+      - path: root_CTRL/spike_base/spikeD1/spikeD2
+        weight: 1
+      - path: root_CTRL/spike_base/spikeD1/spikeE
+        weight: 1
+      - path: root_CTRL/spike_base/wrist
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/index1
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/index1/index2
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/index1/index2/index3
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/index1/index2/index3/index4
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/middle1
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/middle1/middle2
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/middle1/middle2/middle3
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/middle1/middle2/middle3/middle4
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/pinky1
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/pinky1/pinky2
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/pinky1/pinky2/pinky3
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/pinky1/pinky2/pinky3/pinky4
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/ring1
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/ring1/ring2
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/ring1/ring2/ring3
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/ring1/ring2/ring3/ring4
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/thumb1
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/thumb1/thumb2
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/thumb1/thumb2/thumb3
+        weight: 1
+      - path: root_CTRL/spike_base/wrist/hand1/thumb1/thumb2/thumb3/thumb4
+        weight: 1
+      - path: root_CTRL/spikeA_trash
+        weight: 1
+      - path: root_CTRL/spikeA_trash/spikeA_clean
+        weight: 1
+      - path: root_CTRL/spikeA_trash/spikeA_clean/spikeA_CTRL
+        weight: 1
+      - path: root_CTRL/spikeB_trash
+        weight: 1
+      - path: root_CTRL/spikeB_trash/spikeB_clean
+        weight: 1
+      - path: root_CTRL/spikeB_trash/spikeB_clean/spikeB_CTRL
+        weight: 1
+      - path: root_CTRL/spikeC_trash
+        weight: 1
+      - path: root_CTRL/spikeC_trash/spikeC_clean
+        weight: 1
+      - path: root_CTRL/spikeC_trash/spikeC_clean/spikeC_CTRL
+        weight: 1
+      - path: root_CTRL/spikeD_trash
+        weight: 1
+      - path: root_CTRL/spikeD_trash/spikeD_clean
+        weight: 1
+      - path: root_CTRL/spikeD_trash/spikeD_clean/spikeD_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL/index2_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL/index2_trash/index2_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL/index2_trash/index2_clean/index2_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL/index2_trash/index2_clean/index2_CTRL/index3_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL/index2_trash/index2_clean/index2_CTRL/index3_trash/index3_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/index1_trash/index1_clean/index1_CTRL/index2_trash/index2_clean/index2_CTRL/index3_trash/index3_clean/index3_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL/middle2_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL/middle2_trash/middle2_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL/middle2_trash/middle2_clean/middle2_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL/middle2_trash/middle2_clean/middle2_CTRL/middle3_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL/middle2_trash/middle2_clean/middle2_CTRL/middle3_trash/middle3_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/middle1_trash/middle1_clean/middle1_CTRL/middle2_trash/middle2_clean/middle2_CTRL/middle3_trash/middle3_clean/middle3_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL/pinky2_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL/pinky2_trash/pinky2_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL/pinky2_trash/pinky2_clean/pinky2_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL/pinky2_trash/pinky2_clean/pinky2_CTRL/pinky3_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL/pinky2_trash/pinky2_clean/pinky2_CTRL/pinky3_trash/pinky3_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/pinky1_trashpad/pinky1_cleanpad/pinky1_CTRL/pinky2_trash/pinky2_clean/pinky2_CTRL/pinky3_trash/pinky3_clean/pinky3_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL/ring2_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL/ring2_trash/ring2_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL/ring2_trash/ring2_clean/ring2_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL/ring2_trash/ring2_clean/ring2_CTRL/ring3_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL/ring2_trash/ring2_clean/ring2_CTRL/ring3_trash/ring3_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/ring1_trash/ring1_clean/ring1_CTRL/ring2_trash/ring2_clean/ring2_CTRL/ring3_trash/ring3_clean/ring3_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL/thumb2_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL/thumb2_trash/thumb2_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL/thumb2_trash/thumb2_clean/thumb2_CTRL
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL/thumb2_trash/thumb2_clean/thumb2_CTRL/thumb3_trash
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL/thumb2_trash/thumb2_clean/thumb2_CTRL/thumb3_trash/thumb3_clean
+        weight: 1
+      - path: root_CTRL/wrist_trash/wrist_clean/wrist_CTRL/thumb1_trash/thumb1_clean/thumb1_CTRL/thumb2_trash/thumb2_clean/thumb2_CTRL/thumb3_trash/thumb3_clean/thumb3_CTRL
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fist
+      takeName: Take 001
+      firstFrame: 111
+      lastFrame: 111.099998
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
