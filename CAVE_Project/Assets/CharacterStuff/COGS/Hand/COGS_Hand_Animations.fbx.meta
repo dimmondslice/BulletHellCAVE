@@ -2463,8 +2463,8 @@ ModelImporter:
     - serializedVersion: 16
       name: fist
       takeName: Take 001
-      firstFrame: 111
-      lastFrame: 111.099998
+      firstFrame: 77
+      lastFrame: 77.0999985
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2718,10 +2718,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

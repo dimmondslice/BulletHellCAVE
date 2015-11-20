@@ -740,7 +740,7 @@ GameObject:
   - 65: {fileID: 6590826}
   - 108: {fileID: 10865916}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: BulletNormal
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

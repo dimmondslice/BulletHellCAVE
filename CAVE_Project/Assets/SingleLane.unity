@@ -37,6 +37,9 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -65,7 +68,6 @@ LightmapSettings:
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-    m_ReflectionCompression: 2
   m_LightmapSnapshot: {fileID: 0}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5
@@ -113,7 +115,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawners: []
-  bulletPrefab: {fileID: 470152, guid: 6fccad1a0428e75438cd1f13d42ee3c8, type: 2}
+  bulletPrefabs:
+  - {fileID: 470152, guid: 6fccad1a0428e75438cd1f13d42ee3c8, type: 2}
+  - {fileID: 433614, guid: 7ba9ea8551b7732488e4df729be13fd6, type: 2}
   spawnRate: 3
   spawnRateLimit: 1.25
 --- !u!4 &66730024
@@ -1027,7 +1031,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d5139d8c4e9ac6347b3548e6eb85352f, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d5139d8c4e9ac6347b3548e6eb85352f, type: 2}
       propertyPath: m_IsActive
@@ -1418,6 +1422,38 @@ Prefab:
     - target: {fileID: 14883344, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
       propertyPath: m_ViewID.m_Type
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 477068, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13654244, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 477068, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 489302, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.99999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 483784, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.99999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 412140, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489302, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .0315000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 483784, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.0315000005
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11472570, guid: 6a2439679d4a691489cfe8cf5060002e, type: 2}
