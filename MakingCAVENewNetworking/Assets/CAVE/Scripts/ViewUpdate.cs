@@ -3,9 +3,10 @@ using System.Collections;
 
 
 public class ViewUpdate : MonoBehaviour {
-	
+    public Tracker ER_Tracker;
+
 	//public Vector3 trackerPosition = new Vector3(0f,1.5f,0f);
-	public Transform trackerPosition;
+	public Transform trackerTransform;
 	public bool stereo = false;
 	public float interpupillaryDistance = 0.1f;
 
@@ -17,12 +18,17 @@ public class ViewUpdate : MonoBehaviour {
 	public viewType whichCameraToViewFrom = viewType.center;
 	
 	void Start(){
+        if (ER_Tracker == null) {
+            ER_Tracker = FindObjectOfType<Tracker>();
+        }
+    }
 
-	}
-	
-	void Update(){
-
-		if (Input.GetKeyDown(KeyCode.M)){
+    void Update()
+    {
+        trackerTransform.localPosition = new Vector3(ER_Tracker.objs["Visor"].x, ER_Tracker.objs["Visor"].y, ER_Tracker.objs["Visor"].z);
+        
+        
+        if (Input.GetKeyDown(KeyCode.M)){
 			if (menuToggle){
 				menuToggle = false;
 			}
@@ -35,7 +41,7 @@ public class ViewUpdate : MonoBehaviour {
 	}
 	
 	public void UpdateTrackerPosition(float x, float y, float z){
-		trackerPosition.localPosition = new Vector3(x, y, z);
+		trackerTransform.localPosition = new Vector3(x, y, z);
 	}
 	
 	public void OnGUI(){

@@ -22,7 +22,7 @@ public class KooimaProjMatrix : MonoBehaviour {
 		
 		//get new tracker position (as updated over the network)
 		//getting it off the "ViewUpdate" component on the projection root (parent), along with IPD if needed
-		trackerPosition = transform.parent.GetComponent<ViewUpdate>().trackerPosition;
+		trackerPosition = transform.parent.GetComponent<ViewUpdate>().trackerTransform;
 		stereo = transform.parent.GetComponent<ViewUpdate>().stereo;
 		interpupillaryDistance = transform.parent.GetComponent<ViewUpdate>().interpupillaryDistance;
 		
