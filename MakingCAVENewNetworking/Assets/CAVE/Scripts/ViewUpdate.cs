@@ -27,7 +27,7 @@ public class ViewUpdate : MonoBehaviour {
     {
         trackerTransform.localPosition = new Vector3(ER_Tracker.objs["Visor"].x, ER_Tracker.objs["Visor"].y, ER_Tracker.objs["Visor"].z);
         
-        
+        /*
         if (Input.GetKeyDown(KeyCode.M)){
 			if (menuToggle){
 				menuToggle = false;
@@ -37,11 +37,7 @@ public class ViewUpdate : MonoBehaviour {
 
 			}
 		}
-
-	}
-	
-	public void UpdateTrackerPosition(float x, float y, float z){
-		trackerTransform.localPosition = new Vector3(x, y, z);
+        */
 	}
 	
 	public void OnGUI(){

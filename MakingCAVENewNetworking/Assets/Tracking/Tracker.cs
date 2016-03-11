@@ -106,7 +106,11 @@ public class Tracker : MonoBehaviour {
 	public Dictionary<string, Tracker_Obj> objs;
 	public List<Tracker_Obj> serialized_objs;
 
-	void Start() {
+    void OnEnable() {
+
+    }
+
+    void Start() {
 		Debug.Log ("Initializing Client");
 		objs = new Dictionary<string, Tracker_Obj>();
 		serialized_objs = new List<Tracker_Obj>();
@@ -125,12 +129,12 @@ public class Tracker : MonoBehaviour {
 		byte[] msg = System.Text.Encoding.UTF8.GetBytes("ADD ME");
 		client.Send(msg, msg.Length);
 
-		#if UNITY_EDITOR
-			EditorApplication.update += Update;
-		#endif
-	}
+#if UNITY_EDITOR
+        EditorApplication.update += Update;
+#endif
+    }
 
-	void OnDestroy() {
+    void OnDestroy() {
 		#if UNITY_EDITOR
 			EditorApplication.update -= Update;
 		#endif
