@@ -17,7 +17,10 @@ public class ViewUpdate : MonoBehaviour {
 	public enum viewType{center, left, right};
 	public viewType whichCameraToViewFrom = viewType.center;
 	
-	void Start(){
+	void Start()
+    {
+        
+
         if (ER_Tracker == null) {
             ER_Tracker = FindObjectOfType<Tracker>();
         }
@@ -52,8 +55,9 @@ public class ViewUpdate : MonoBehaviour {
 				transform.Find("Main Camera-rightL").gameObject.SetActive(false);
 				transform.Find("Main Camera-rightR").gameObject.SetActive(false);
 				whichCameraToViewFrom = viewType.center;
-				//Settings.HideAndLockCursor();
-				//Network.InitializeServer(4, 12345, false);
+                //Settings.HideAndLockCursor();
+                //Network.InitializeServer(4, 12345, false);
+                menuToggle = false;
 			}
 			if (GUI.Button(new Rect(180, 50, 150, 20), "Listen as left")){
 				//Debug.Log("Not left yet");
@@ -65,8 +69,9 @@ public class ViewUpdate : MonoBehaviour {
 				transform.Find("Main Camera-rightL").gameObject.SetActive(false);
 				transform.Find("Main Camera-rightR").gameObject.SetActive(false);
 				whichCameraToViewFrom = viewType.left;
-				//Settings.HideAndLockCursor();
-				//Network.Connect(ip, port);
+                //Settings.HideAndLockCursor();
+                //Network.Connect(ip, port);
+                menuToggle = false;
 			}
 			if (GUI.Button(new Rect(180,75,150,20), "Listen as right")){
 				//Debug.Log("Not right yet");
@@ -78,6 +83,7 @@ public class ViewUpdate : MonoBehaviour {
 				transform.Find("Main Camera-rightL").gameObject.SetActive(true);
 				transform.Find("Main Camera-rightR").gameObject.SetActive(true);
 				whichCameraToViewFrom = viewType.right;
+                menuToggle = false;
 				//Settings.HideAndLockCursor();
 				//Network.Connect(ip, port);
 			}
