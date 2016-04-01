@@ -43,8 +43,8 @@ public class ViewUpdate : MonoBehaviour {
 	
 	public void OnGUI(){
 		if (menuToggle){
-			ip = GUI.TextField(new Rect(20, 60, 150, 20), ip, 15);
-			if (GUI.Button(new Rect(105,10,150,20), "Start server as center")){
+			ip = GUI.TextField(new Rect(20, 160, 150, 20), ip, 15);
+			if (GUI.Button(new Rect(105,110,150,20), "Start server as center")){
 				//Debug.Log("Not actually starting server yet");
 				Debug.Log ("SET CENTER TO TRUE");
 				Settings.position = Settings.Position.Center;
@@ -59,7 +59,7 @@ public class ViewUpdate : MonoBehaviour {
                 //Network.InitializeServer(4, 12345, false);
                 menuToggle = false;
 			}
-			if (GUI.Button(new Rect(180, 50, 150, 20), "Listen as left")){
+			if (GUI.Button(new Rect(180, 150, 150, 20), "Listen as left")){
 				//Debug.Log("Not left yet");
 				Settings.position = Settings.Position.Left;
 				transform.Find("Main Camera-centerL").gameObject.SetActive(false);
@@ -73,7 +73,7 @@ public class ViewUpdate : MonoBehaviour {
                 //Network.Connect(ip, port);
                 menuToggle = false;
 			}
-			if (GUI.Button(new Rect(180,75,150,20), "Listen as right")){
+			if (GUI.Button(new Rect(180,175,150,20), "Listen as right")){
 				//Debug.Log("Not right yet");
 				Settings.position = Settings.Position.Right;
 				transform.Find("Main Camera-centerL").gameObject.SetActive(false);
