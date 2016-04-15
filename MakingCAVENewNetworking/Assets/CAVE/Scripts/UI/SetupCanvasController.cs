@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
+using System.Collections.Generic;
 
 public class SetupCanvasController : MonoBehaviour {
 
 	[System.Serializable]
 	public class CameraCluster {
+
+		public ComputerConfig config;
 
 		public Toggle toggleButton;
 
@@ -32,6 +34,20 @@ public class SetupCanvasController : MonoBehaviour {
 		}
 	}
 
+	[System.Serializable]
+	public class CameraDisplayManager {
+
+		public List<CameraCluster> camClusterList;
+
+		public Dictionary<ComputerConfig, CameraCluster> camClusterDict;
+
+		public void Init() {
+			camClusterDict = new Dictionary<ComputerConfig, CameraCluster> ();
+			foreach (CameraCluster cluster in camClusterList) {
+				camClusterDict.Add (cluster.config, cluster);
+			}
+		}
+	}
 
 	public enum ComputerConfig {
 		Middle = 0,
@@ -50,10 +66,13 @@ public class SetupCanvasController : MonoBehaviour {
 	public GameObject setupUI;
 	public bool startActive = false;
 
+	public CameraDisplayManager displayManager;
+
+	/*
 	public CameraCluster leftCamCluster;
 	public CameraCluster middleCamCluster;
 	public CameraCluster rightCamCluster;
-
+	*/
 
 	public ComputerConfig curComputerConfig;
 	//public ScreenConfig curScreenConfig;
@@ -61,6 +80,8 @@ public class SetupCanvasController : MonoBehaviour {
 
 	void Awake() {
 		setupUI.SetActive (startActive);
+
+		displayManager.Init ();
 	}
 
 	// Use this for initialization
@@ -88,6 +109,13 @@ public class SetupCanvasController : MonoBehaviour {
 
 		Debug.Log (newConfig);
 
+		displayManager.camClusterDict [curComputerConfig].enabled = false;
+
+		curComputerConfig = newConfig;
+
+		displayManager.camClusterDict [newConfig].enabled = true;
+
+		/*
 		switch (newConfig) {
 		case ComputerConfig.Left:
 				leftCamCluster.enabled = true;
@@ -113,6 +141,7 @@ public class SetupCanvasController : MonoBehaviour {
 			default:
 				goto case ComputerConfig.Middle;
 		}
+		*/
 	}
 
 	/*
