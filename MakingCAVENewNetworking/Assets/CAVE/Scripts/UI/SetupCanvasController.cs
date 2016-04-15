@@ -68,15 +68,7 @@ public class SetupCanvasController : MonoBehaviour {
 
 	public CameraDisplayManager displayManager;
 
-	/*
-	public CameraCluster leftCamCluster;
-	public CameraCluster middleCamCluster;
-	public CameraCluster rightCamCluster;
-	*/
-
 	public ComputerConfig curComputerConfig;
-	//public ScreenConfig curScreenConfig;
-
 
 	void Awake() {
 		setupUI.SetActive (startActive);
@@ -114,45 +106,6 @@ public class SetupCanvasController : MonoBehaviour {
 		curComputerConfig = newConfig;
 
 		displayManager.camClusterDict [newConfig].enabled = true;
-
-		/*
-		switch (newConfig) {
-		case ComputerConfig.Left:
-				leftCamCluster.enabled = true;
-
-				middleCamCluster.enabled = false;
-				rightCamCluster.enabled = false;
-				break;
-
-			case ComputerConfig.Middle:
-				middleCamCluster.enabled = true;
-
-				leftCamCluster.enabled = false;
-				rightCamCluster.enabled = false;
-				break;
-
-			case ComputerConfig.Right:
-				rightCamCluster.enabled = true;
-
-				leftCamCluster.enabled = false;
-				middleCamCluster.enabled = false;
-				break;
-
-			default:
-				goto case ComputerConfig.Middle;
-		}
-		*/
 	}
-
-	/*
-	public void SetComputer_Middle() {
-		SetComputer (ComputerConfig.Middle);
-	}
-	public void SetComputer_Left() {
-		SetComputer (ComputerConfig.Left);
-	}
-	public void SetComputer_Right() {
-		SetComputer (ComputerConfig.Right);
-	}
-	*/
+		
 }
