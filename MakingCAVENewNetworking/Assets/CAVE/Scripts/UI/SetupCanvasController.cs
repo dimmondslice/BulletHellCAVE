@@ -37,6 +37,8 @@ public class SetupCanvasController : MonoBehaviour {
 	[System.Serializable]
 	public class CameraDisplayManager {
 
+		public Camera terminalCam;
+
 		public List<CameraCluster> camClusterList;
 
 		public Dictionary<ComputerConfig, CameraCluster> camClusterDict;
@@ -54,13 +56,13 @@ public class SetupCanvasController : MonoBehaviour {
 		Left = 1,
 		Right = 2,
 	}
-	/*
+
 	public enum ScreenConfig {
-		Middle = 0,
-		Left = 1,
-		Right = 2,
+		Terminal = 0,
+		LeftCam = 1,
+		RightCam = 2,
 	}
-	*/
+
 
 	public KeyCode enableUIKey = KeyCode.F1;
 	public GameObject setupUI;
@@ -107,5 +109,26 @@ public class SetupCanvasController : MonoBehaviour {
 
 		displayManager.camClusterDict [newConfig].enabled = true;
 	}
-		
+
+
+	public void SetDisplay(ScreenConfig screen, int displayIndex) {
+		switch (screen) {
+		case ScreenConfig.Terminal:
+			displayManager.terminalCam.targetDisplay = displayIndex;
+			break;
+
+		case ScreenConfig.LeftCam:
+			displayManager.camClusterDict [curComputerConfig].leftCam.targetDisplay = displayIndex;
+			break;
+		case  ScreenConfig.RightCam:
+			displayManager.camClusterDict [curComputerConfig].rightCam.targetDisplay = displayIndex;
+			break;
+
+		default:
+			goto case ScreenConfig.Terminal;
+		}
+
+ 
+	}
+
 }
