@@ -68,9 +68,10 @@ public class SetupCanvasController : MonoBehaviour {
 	public GameObject setupUI;
 	public bool startActive = false;
 
+	public ComputerConfig curComputerConfig;
+
 	public CameraDisplayManager displayManager;
 
-	public ComputerConfig curComputerConfig;
 
 	void Awake() {
 		setupUI.SetActive (startActive);
@@ -102,6 +103,7 @@ public class SetupCanvasController : MonoBehaviour {
 	public void SetComputer(ComputerConfig newConfig) {
 
 		Debug.Log (newConfig);
+		if (newConfig == curComputerConfig) {return;}
 
 		displayManager.camClusterDict [curComputerConfig].enabled = false;
 
