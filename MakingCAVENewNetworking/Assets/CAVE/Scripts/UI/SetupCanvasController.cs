@@ -7,6 +7,7 @@ public class SetupCanvasController : MonoBehaviour {
 	[System.Serializable]
 	public class CameraCluster {
 
+
 		public ComputerConfig config;
 
 		public Toggle toggleButton;
@@ -35,19 +36,53 @@ public class SetupCanvasController : MonoBehaviour {
 	}
 
 	[System.Serializable]
+	public class ScreenDropdown {
+		public ScreenConfig config;
+
+		public Dropdown dropdown;
+	}
+
+	[System.Serializable]
 	public class CameraDisplayManager {
 
 		public Camera terminalCam;
 
-		public List<CameraCluster> camClusterList;
+		public ComputerConfig curComputerConfig;
 
+		public List<CameraCluster> camClusterList;
 		public Dictionary<ComputerConfig, CameraCluster> camClusterDict;
 
+		public List<ScreenDropdown> screenDropdownList;
+		public Dictionary<ScreenConfig, ScreenDropdown> screenDropdownDict;
+
 		public void Init() {
+			//create cam cluster lookup table
 			camClusterDict = new Dictionary<ComputerConfig, CameraCluster> ();
 			foreach (CameraCluster cluster in camClusterList) {
 				camClusterDict.Add (cluster.config, cluster);
 			}
+
+			//create screen configuration lookup table
+			screenDropdownDict = new Dictionary<ScreenConfig, ScreenDropdown> ();
+			foreach(ScreenDropdown dropdown in screenDropdownList) {
+				screenDropdownDict.Add(dropdown.config, dropdown);
+			}
+
+			//initialize UI elements
+			camClusterDict [curComputerConfig].toggleButton.isOn = true;
+
+			screenDropdownDict [ScreenConfig.Terminal].dropdown.value = terminalCam.targetDisplay;
+			screenDropdownDict [ScreenConfig.LeftCam].dropdown.value = camClusterDict [curComputerConfig].leftCam.targetDisplay;
+			screenDropdownDict [ScreenConfig.RightCam].dropdown.value = camClusterDict [curComputerConfig].rightCam.targetDisplay;
+
+			/*foreach (ScreenConfig config in screenDropdownDict.Keys) {
+				screenDropdownDict[key].dropdown.value = camClusterDict[curComputerConfig].	
+			}*/
+			/*
+			foreach (KeyValuePair<ScreenConfig, ScreenDropdown> kvp in screenDropdownDict) {
+				
+			}
+			*/
 		}
 	}
 
@@ -63,17 +98,19 @@ public class SetupCanvasController : MonoBehaviour {
 		RightCam = 2,
 	}
 
+	private Canvas setupCanvas;
 
 	public KeyCode enableUIKey = KeyCode.F1;
 	public GameObject setupUI;
 	public bool startActive = false;
 
-	public ComputerConfig curComputerConfig;
 
 	public CameraDisplayManager displayManager;
 
 
 	void Awake() {
+		setupCanvas = GetComponent<Canvas> ();
+
 		setupUI.SetActive (startActive);
 
 		displayManager.Init ();
@@ -91,6 +128,7 @@ public class SetupCanvasController : MonoBehaviour {
 
 	public void HandleInput() {
 		//HandleIsEnabled ();
+	//Toggle the Configuration UI
 		if (Input.GetKeyDown(enableUIKey)) {
 			setupUI.SetActive (!setupUI.activeInHierarchy);
 		}
@@ -102,12 +140,12 @@ public class SetupCanvasController : MonoBehaviour {
 	*/
 	public void SetComputer(ComputerConfig newConfig) {
 
-		Debug.Log (newConfig);
-		if (newConfig == curComputerConfig) {return;}
+		//Debug.Log (newConfig);
+		if (newConfig == displayManager.curComputerConfig) {return;}
 
-		displayManager.camClusterDict [curComputerConfig].enabled = false;
+		displayManager.camClusterDict [displayManager.curComputerConfig].enabled = false;
 
-		curComputerConfig = newConfig;
+		displayManager.curComputerConfig = newConfig;
 
 		displayManager.camClusterDict [newConfig].enabled = true;
 	}
@@ -117,13 +155,14 @@ public class SetupCanvasController : MonoBehaviour {
 		switch (screen) {
 		case ScreenConfig.Terminal:
 			displayManager.terminalCam.targetDisplay = displayIndex;
+			//setupCanvas.targetDisplay = displayIndex;
 			break;
 
 		case ScreenConfig.LeftCam:
-			displayManager.camClusterDict [curComputerConfig].leftCam.targetDisplay = displayIndex;
+			displayManager.camClusterDict [displayManager.curComputerConfig].leftCam.targetDisplay = displayIndex;
 			break;
 		case  ScreenConfig.RightCam:
-			displayManager.camClusterDict [curComputerConfig].rightCam.targetDisplay = displayIndex;
+			displayManager.camClusterDict [displayManager.curComputerConfig].rightCam.targetDisplay = displayIndex;
 			break;
 
 		default:
