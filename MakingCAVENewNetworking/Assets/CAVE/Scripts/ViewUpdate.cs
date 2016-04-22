@@ -19,17 +19,16 @@ public class ViewUpdate : MonoBehaviour {
 	
 	void Start()
     {
-        
-
-        if (ER_Tracker == null) {
+        if (ER_Tracker == null) 
+        {
             ER_Tracker = FindObjectOfType<Tracker>();
         }
     }
 
     void Update()
     {
-        trackerTransform.localPosition = new Vector3(ER_Tracker.objs["Visor"].x, ER_Tracker.objs["Visor"].y, ER_Tracker.objs["Visor"].z);
-        
+        //trackerTransform.localPosition = new Vector3(ER_Tracker.objs["Visor"].x, ER_Tracker.objs["Visor"].y, ER_Tracker.objs["Visor"].z);
+        /*
         if (Input.GetKeyDown(KeyCode.M)){
 			if (menuToggle){
 				menuToggle = false;
@@ -39,6 +38,7 @@ public class ViewUpdate : MonoBehaviour {
 
 			}
 		}
+        */
 	}
 	
 	public void OnGUI(){
