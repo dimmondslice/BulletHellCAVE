@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq;
 
 public class SetupCanvasController : MonoBehaviour {
 
@@ -56,6 +56,22 @@ public class SetupCanvasController : MonoBehaviour {
 		public List<ScreenDropdown> screenDropdownList;
 		public Dictionary<DisplayConfig, ScreenDropdown> screenDropdownDict;
 
+		public int GetIndexOfDisplayConfig(DisplayConfig display) {
+
+			switch (display) {
+				case DisplayConfig.Terminal:
+					return terminalCam.targetDisplay;
+
+				case DisplayConfig.LeftCam:
+					return camClusterDict[curComputerConfig].leftCam.targetDisplay;
+
+				case DisplayConfig.RightCam:
+					return camClusterDict[curComputerConfig].rightCam.targetDisplay;
+
+				default: goto case DisplayConfig.Terminal;
+			}
+		}
+
 		public void Init() {
 			//create cam cluster lookup table
 			camClusterDict = new Dictionary<ComputerConfig, CameraCluster> ();
@@ -104,6 +120,9 @@ public class SetupCanvasController : MonoBehaviour {
         }
 
         public void SetDisplay(DisplayConfig screen, int displayIndex) {
+
+			//int prevDisplayIndex
+
             switch (screen) {
                 case DisplayConfig.Terminal:
                     terminalCam.targetDisplay = displayIndex;
@@ -120,9 +139,10 @@ public class SetupCanvasController : MonoBehaviour {
                 default:
                     goto case DisplayConfig.Terminal;
             }
-
-
         }
+
+
+
     }
 
 	public enum ComputerConfig {
@@ -186,7 +206,15 @@ public class SetupCanvasController : MonoBehaviour {
 
 
 	public void SetDisplay(DisplayConfig screen, int displayIndex) {
+
         displayManager.SetDisplay(screen, displayIndex);
+		/*UNCOMMNET, RESUME WORK HERE
+		if (screen == DisplayConfig.Terminal) {
+			setupCanvas.targetDisplay = displayIndex;
+			//setupCanvas.worldCamera = 
+			//setupCanvas.worldCamera = displayManager.terminalCam;
+		}
+		*/
 	}
 
 }
