@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SetupCanvasController : MonoBehaviour {
 
@@ -37,7 +38,7 @@ public class SetupCanvasController : MonoBehaviour {
 
 	[System.Serializable]
 	public class ScreenDropdown {
-		public ScreenConfig config;
+		public DisplayConfig config;
 
 		public Dropdown dropdown;
 	}
@@ -53,7 +54,7 @@ public class SetupCanvasController : MonoBehaviour {
 		public Dictionary<ComputerConfig, CameraCluster> camClusterDict;
 
 		public List<ScreenDropdown> screenDropdownList;
-		public Dictionary<ScreenConfig, ScreenDropdown> screenDropdownDict;
+		public Dictionary<DisplayConfig, ScreenDropdown> screenDropdownDict;
 
 		public void Init() {
 			//create cam cluster lookup table
@@ -63,7 +64,7 @@ public class SetupCanvasController : MonoBehaviour {
 			}
 
 			//create screen configuration lookup table
-			screenDropdownDict = new Dictionary<ScreenConfig, ScreenDropdown> ();
+			screenDropdownDict = new Dictionary<DisplayConfig, ScreenDropdown> ();
 			foreach(ScreenDropdown dropdown in screenDropdownList) {
 				screenDropdownDict.Add(dropdown.config, dropdown);
 			}
@@ -71,9 +72,9 @@ public class SetupCanvasController : MonoBehaviour {
 			//initialize UI elements
 			camClusterDict [curComputerConfig].toggleButton.isOn = true;
 
-			screenDropdownDict [ScreenConfig.Terminal].dropdown.value = terminalCam.targetDisplay;
-			screenDropdownDict [ScreenConfig.LeftCam].dropdown.value = camClusterDict [curComputerConfig].leftCam.targetDisplay;
-			screenDropdownDict [ScreenConfig.RightCam].dropdown.value = camClusterDict [curComputerConfig].rightCam.targetDisplay;
+			screenDropdownDict [DisplayConfig.Terminal].dropdown.value = terminalCam.targetDisplay;
+			screenDropdownDict [DisplayConfig.LeftCam].dropdown.value = camClusterDict [curComputerConfig].leftCam.targetDisplay;
+			screenDropdownDict [DisplayConfig.RightCam].dropdown.value = camClusterDict [curComputerConfig].rightCam.targetDisplay;
 
 			/*foreach (ScreenConfig config in screenDropdownDict.Keys) {
 				screenDropdownDict[key].dropdown.value = camClusterDict[curComputerConfig].	
@@ -84,7 +85,45 @@ public class SetupCanvasController : MonoBehaviour {
 			}
 			*/
 		}
-	}
+
+        public void SetComputer(ComputerConfig newConfig) {
+
+            //Debug.Log (newConfig);
+            if (newConfig == curComputerConfig) { return; }
+
+            //disable the last Cam Cluster we were on
+            camClusterDict[curComputerConfig].enabled = false;
+
+            //switch tracking to using the new Cam Cluster
+            curComputerConfig = newConfig;
+
+            //Actually enable the new Cam Cluster
+            camClusterDict[newConfig].enabled = true;
+
+
+        }
+
+        public void SetDisplay(DisplayConfig screen, int displayIndex) {
+            switch (screen) {
+                case DisplayConfig.Terminal:
+                    terminalCam.targetDisplay = displayIndex;
+                    //setupCanvas.targetDisplay = displayIndex;
+                    break;
+
+                case DisplayConfig.LeftCam:
+                    camClusterDict[curComputerConfig].leftCam.targetDisplay = displayIndex;
+                    break;
+                case DisplayConfig.RightCam:
+                    camClusterDict[curComputerConfig].rightCam.targetDisplay = displayIndex;
+                    break;
+
+                default:
+                    goto case DisplayConfig.Terminal;
+            }
+
+
+        }
+    }
 
 	public enum ComputerConfig {
 		Middle = 0,
@@ -92,7 +131,7 @@ public class SetupCanvasController : MonoBehaviour {
 		Right = 2,
 	}
 
-	public enum ScreenConfig {
+	public enum DisplayConfig {
 		Terminal = 0,
 		LeftCam = 1,
 		RightCam = 2,
@@ -116,12 +155,10 @@ public class SetupCanvasController : MonoBehaviour {
 		displayManager.Init ();
 	}
 
-	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		HandleInput();
 	}
@@ -133,43 +170,23 @@ public class SetupCanvasController : MonoBehaviour {
 			setupUI.SetActive (!setupUI.activeInHierarchy);
 		}
 	}
-	/*
-	public void HandleIsEnabled () {
-		
-	}
-	*/
+	
 	public void SetComputer(ComputerConfig newConfig) {
 
-		//Debug.Log (newConfig);
-		if (newConfig == displayManager.curComputerConfig) {return;}
+        int terminalIndex = displayManager.terminalCam.targetDisplay;
+        int leftCamIndex = displayManager.camClusterDict[displayManager.curComputerConfig].leftCam.targetDisplay;
+        int rightCamIndex = displayManager.camClusterDict[displayManager.curComputerConfig].rightCam.targetDisplay;
 
-		displayManager.camClusterDict [displayManager.curComputerConfig].enabled = false;
+        displayManager.SetComputer(newConfig);
 
-		displayManager.curComputerConfig = newConfig;
+        displayManager.terminalCam.targetDisplay = terminalIndex;
+        displayManager.camClusterDict[displayManager.curComputerConfig].leftCam.targetDisplay = leftCamIndex;
+        displayManager.camClusterDict[displayManager.curComputerConfig].rightCam.targetDisplay = rightCamIndex;
+    }
 
-		displayManager.camClusterDict [newConfig].enabled = true;
-	}
 
-
-	public void SetDisplay(ScreenConfig screen, int displayIndex) {
-		switch (screen) {
-		case ScreenConfig.Terminal:
-			displayManager.terminalCam.targetDisplay = displayIndex;
-			//setupCanvas.targetDisplay = displayIndex;
-			break;
-
-		case ScreenConfig.LeftCam:
-			displayManager.camClusterDict [displayManager.curComputerConfig].leftCam.targetDisplay = displayIndex;
-			break;
-		case  ScreenConfig.RightCam:
-			displayManager.camClusterDict [displayManager.curComputerConfig].rightCam.targetDisplay = displayIndex;
-			break;
-
-		default:
-			goto case ScreenConfig.Terminal;
-		}
-
- 
+	public void SetDisplay(DisplayConfig screen, int displayIndex) {
+        displayManager.SetDisplay(screen, displayIndex);
 	}
 
 }
