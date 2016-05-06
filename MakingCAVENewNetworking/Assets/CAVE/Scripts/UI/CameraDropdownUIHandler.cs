@@ -16,7 +16,7 @@ public class CameraDropdownUIHandler : MonoBehaviour {
 	*/
 	public SetupCanvasController setupCanvasController;
 
-	public SetupCanvasController.ScreenConfig screen;
+	public SetupCanvasController.DisplayConfig screen;
 
 	//public DisplayBinding displayBinding;
 
