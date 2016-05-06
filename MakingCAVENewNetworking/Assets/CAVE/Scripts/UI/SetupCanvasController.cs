@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿#define DEBUGS_ENABLED
+
+//uncomment to disable debugs
+//#undef DEBUGS_ENABLED
+
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 //using System.Linq;
@@ -70,6 +75,31 @@ public class SetupCanvasController : MonoBehaviour {
 
 				default: goto case DisplayConfig.Terminal;
 			}
+		}
+
+		public DisplayConfig GetDisplayConfigFromIndex(int displayIndex) {
+			//CHECK TERMINAL CAM
+			if (terminalCam.targetDisplay == displayIndex) {
+				return DisplayConfig.Terminal;
+			}
+
+			//CHECK LEFT CAM
+			else if (camClusterDict[curComputerConfig].leftCam.targetDisplay == displayIndex) {
+				return DisplayConfig.LeftCam;
+			}
+
+			//CHECK RIGHT CAM
+			else if (camClusterDict[curComputerConfig].rightCam.targetDisplay == displayIndex) {
+				return DisplayConfig.RightCam;
+			}
+
+			//else {
+			#if DEBUGS_ENABLED
+			Debug.LogErrorFormat("Supplied display index of: {0} was not acceptable, returning the Terminal config as default", displayIndex);
+			#endif
+
+			return DisplayConfig.Terminal;
+			//}
 		}
 
 		public void Init() {
@@ -207,14 +237,26 @@ public class SetupCanvasController : MonoBehaviour {
 
 	public void SetDisplay(DisplayConfig screen, int displayIndex) {
 
-        displayManager.SetDisplay(screen, displayIndex);
-		/*UNCOMMNET, RESUME WORK HERE
+		//int displayToSwapIndex = displayManager.GetDisplayConfigFromIndex (displayIndex);
+
+		//grab the DisplayConfig of the destination display
+		DisplayConfig displayToSwapConfig = displayManager.GetDisplayConfigFromIndex ((displayIndex));
+		//grab the current Display Index of the display we're moving, before we move it
+		int oldDisplayConfig = displayManager.GetIndexOfDisplayConfig (screen);
+
 		if (screen == DisplayConfig.Terminal) {
+
+			//displayManager.GetIndexOfDisplayConfig (DisplayConfig.Terminal);
+
 			setupCanvas.targetDisplay = displayIndex;
 			//setupCanvas.worldCamera = 
 			//setupCanvas.worldCamera = displayManager.terminalCam;
 		}
-		*/
+
+        displayManager.SetDisplay(screen, displayIndex);
+		displayManager.SetDisplay (displayToSwapConfig, oldDisplayConfig);
+
+
 	}
 
 }
