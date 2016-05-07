@@ -53,6 +53,7 @@ public class DisplayCaveDimensions : MonoBehaviour {
         float wallThickness = 0.0f;
 		Color originalGizmoColor = Gizmos.color;
 
+        //LEFT WALL
 		Gizmos.color = leftWallColor;
 		Gizmos.DrawCube (CalcAvgPos (left_TopLeft.position,
 									 left_TopRight.position,
@@ -63,6 +64,15 @@ public class DisplayCaveDimensions : MonoBehaviour {
 						Mathf.Abs (left_TopLeft.position.z - left_TopRight.position.z))
                         );
 
+        Gizmos.color = leftWallOutlineColor;
+        Gizmos.DrawLine(left_TopLeft.position, left_BottomLeft.position);
+        Gizmos.DrawLine(left_TopLeft.position, left_TopRight.position);
+        Gizmos.DrawLine(left_TopLeft.position, left_BottomRight.position);
+        Gizmos.DrawLine(left_TopRight.position, left_BottomRight.position);
+        Gizmos.DrawLine(left_BottomLeft.position, left_BottomRight.position);
+        Gizmos.DrawLine(left_TopRight.position, left_BottomLeft.position);
+
+        //MIDDLE WALL
 		Gizmos.color = middleWallColor;
         Gizmos.DrawCube(CalcAvgPos(middle_TopLeft.position,
                                    middle_TopRight.position,
@@ -73,6 +83,15 @@ public class DisplayCaveDimensions : MonoBehaviour {
                         wallThickness)
                         );
 
+        Gizmos.color = middleWallOutlineColor;
+        Gizmos.DrawLine(middle_TopLeft.position, middle_BottomLeft.position);
+        Gizmos.DrawLine(middle_TopLeft.position, middle_TopRight.position);
+        Gizmos.DrawLine(middle_TopLeft.position, middle_BottomRight.position);
+        Gizmos.DrawLine(middle_TopRight.position, middle_BottomRight.position);
+        Gizmos.DrawLine(middle_BottomLeft.position, middle_BottomRight.position);
+        Gizmos.DrawLine(middle_TopRight.position, middle_BottomLeft.position);
+
+        //RIGHT WALL
         Gizmos.color = rightWallColor;
         Gizmos.DrawCube(CalcAvgPos(right_TopLeft.position,
                                    right_TopRight.position,
@@ -83,6 +102,16 @@ public class DisplayCaveDimensions : MonoBehaviour {
                         Mathf.Abs(right_TopLeft.position.z - right_TopRight.position.z))
                         );
 
+        Gizmos.color = rightWallOutlineColor;
+        Gizmos.DrawLine(right_TopLeft.position, right_BottomLeft.position);
+        Gizmos.DrawLine(right_TopLeft.position, right_TopRight.position);
+        Gizmos.DrawLine(right_TopLeft.position, right_BottomRight.position);
+        Gizmos.DrawLine(right_TopRight.position, right_BottomRight.position);
+        Gizmos.DrawLine(right_BottomLeft.position, right_BottomRight.position);
+        Gizmos.DrawLine(right_TopRight.position, right_BottomLeft.position);
+
+
+        //RESET
         Gizmos.color = originalGizmoColor;
 	}
 
