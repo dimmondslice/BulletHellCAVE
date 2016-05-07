@@ -26,8 +26,8 @@ public class DisplayCaveDimensions : MonoBehaviour {
 	public Transform right_TopRight;
 	public Transform right_BottomRight;
 
-
-	public bool displayCaveBounds = false;
+    [HideInInspector]
+	public bool showCaveBounds = false;
 
 	public Color leftWallOutlineColor = Color.blue;
 	public Color leftWallColor;
@@ -50,6 +50,9 @@ public class DisplayCaveDimensions : MonoBehaviour {
 
 	//**************COME BACK AND FINISH IMPLEMENTING CAVE BONDS BASED ON WHAT'S IN THE INSPECTOR GUI**********
 	void OnDrawGizmos() {
+
+        if (!showCaveBounds) { return; }
+
         float wallThickness = 0.0f;
 		Color originalGizmoColor = Gizmos.color;
 
@@ -149,74 +152,20 @@ public class DisplayCaveDimensions_Editor : Editor {
 
 	}
 
+    public override void OnInspectorGUI() {
 
-	public override void OnInspectorGUI ()
-	{
-		base.OnInspectorGUI ();
+        bool prevShowSetting = selfScript.showCaveBounds;
 
-		//selfScript.displayCaveBounds = GUILayout.Toggle (selfScript.displayCaveBounds, "Display CAVE Bounds");
-		if (GUILayout.Button ("DisplayCaveBounds")) {
-			ToggleDisplayBounds();
-		}
-	}
+        selfScript.showCaveBounds = GUILayout.Toggle(selfScript.showCaveBounds, "Show Screens", EditorStyles.radioButton);
 
-	void ToggleDisplayBounds() {
-		if (selfScript.displayCaveBounds == true) {
-			//SceneView.onSceneGUIDelegate -= OnScene;
-			selfScript.displayCaveBounds = false;
-		}
-		else {
-			//SceneView.onSceneGUIDelegate += OnScene;
-			selfScript.displayCaveBounds = true;
-		}
-	}
+        if (selfScript.showCaveBounds != prevShowSetting) {
+            SceneView.RepaintAll();
+        }
 
-	void OnScene(SceneView sceneView) {
+        base.OnInspectorGUI();
 
-		//if (!selfScript.displayCaveBounds) {return;}
-		//if (selfScript.displayCaveBounds)
+    }
 
-		Color originalHandleColor = Handles.color;
-
-		Rect positioningBrush = new Rect();
-		//DRAW LEFT WALL
-		Handles.color = selfScript.leftWallColor;
-
-		//positioningBrush.Set (selfScript.CloseTopLeftCorner.position.x,);
-
-		Handles.DrawSolidRectangleWithOutline (new Vector3 [] {selfScript.left_TopLeft.position,
-																selfScript.left_BottomLeft.position,
-																selfScript.left_BottomRight.position,
-																selfScript.left_TopRight.position
-															   },
-											   selfScript.leftWallColor,
-											   selfScript.leftWallOutlineColor);
-
-		//DRAW MIDDLE WALL
-		Handles.color = selfScript.middleWallColor;
-
-		Handles.DrawSolidRectangleWithOutline (new Vector3 [] {selfScript.middle_TopLeft.position,
-			selfScript.middle_BottomLeft.position,
-			selfScript.middle_BottomRight.position,
-			selfScript.middle_TopRight.position
-		},
-			selfScript.middleWallColor,
-			selfScript.middleWallOutlineColor);
-
-		//DRAW RIGHT WALL
-		Handles.color = selfScript.rightWallColor;
-		Handles.DrawSolidRectangleWithOutline (new Vector3 [] {selfScript.right_TopLeft.position,
-																selfScript.right_BottomLeft.position,
-																selfScript.right_BottomRight.position,
-																selfScript.right_TopRight.position
-															  },
-			selfScript.rightWallColor,
-			selfScript.rightWallOutlineColor);
-		
-
-
-		Handles.color = originalHandleColor;
-	}
 
 }
 #endif
