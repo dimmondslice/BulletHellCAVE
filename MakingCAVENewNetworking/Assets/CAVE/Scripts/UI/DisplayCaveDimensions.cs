@@ -49,7 +49,8 @@ public class DisplayCaveDimensions : MonoBehaviour {
 	}
 
 	//**************COME BACK AND FINISH IMPLEMENTING CAVE BONDS BASED ON WHAT'S IN THE INSPECTOR GUI**********
-	void OnGizmos() {
+	void OnDrawGizmos() {
+        float wallThickness = 0.0f;
 		Color originalGizmoColor = Gizmos.color;
 
 		Gizmos.color = leftWallColor;
@@ -57,17 +58,32 @@ public class DisplayCaveDimensions : MonoBehaviour {
 									 left_TopRight.position,
 									 left_BottomLeft.position,
 									 left_BottomRight.position),
-			new Vector3(0.2f,
-						Mathf.Abs ((left_TopLeft.position.y - left_BottomLeft.position.z) / 2.0f),
-						Mathf.Abs (left_TopLeft.position.z - left_TopRight.position.z) / 2.0f));
+			new Vector3(wallThickness,
+						Mathf.Abs (left_TopLeft.position.y - left_BottomLeft.position.y),
+						Mathf.Abs (left_TopLeft.position.z - left_TopRight.position.z))
+                        );
 
 		Gizmos.color = middleWallColor;
+        Gizmos.DrawCube(CalcAvgPos(middle_TopLeft.position,
+                                   middle_TopRight.position,
+                                   middle_BottomLeft.position,
+                                   middle_BottomRight.position),
+            new Vector3(Mathf.Abs(middle_TopLeft.position.x - middle_TopRight.position.x),
+                        Mathf.Abs(middle_TopLeft.position.y - middle_BottomLeft.position.y),
+                        wallThickness)
+                        );
 
+        Gizmos.color = rightWallColor;
+        Gizmos.DrawCube(CalcAvgPos(right_TopLeft.position,
+                                   right_TopRight.position,
+                                   right_BottomLeft.position,
+                                   right_BottomRight.position),
+            new Vector3(wallThickness,
+                        Mathf.Abs(right_TopLeft.position.y - right_BottomLeft.position.y),
+                        Mathf.Abs(right_TopLeft.position.z - right_TopRight.position.z))
+                        );
 
-		Gizmos.color = rightWallColor;
-
-
-		Gizmos.color = originalGizmoColor;
+        Gizmos.color = originalGizmoColor;
 	}
 
 	Vector3 CalcAvgPos(params Vector3[] positions) {
