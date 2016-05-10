@@ -244,7 +244,7 @@ public class SetupCanvasController : MonoBehaviour {
 		//int displayToSwapIndex = displayManager.GetDisplayConfigFromIndex (displayIndex);
 
 		//grab the DisplayConfig of the destination display
-		DisplayConfig displayToSwapConfig = displayManager.GetDisplayConfigFromIndex ((displayIndex));
+		DisplayConfig displayToSwapConfig = displayManager.GetDisplayConfigFromIndex (displayIndex);
 		//grab the current Display Index of the display we're moving, before we move it
 		int oldDisplayConfig = displayManager.GetIndexOfDisplayConfig (screen);
 
