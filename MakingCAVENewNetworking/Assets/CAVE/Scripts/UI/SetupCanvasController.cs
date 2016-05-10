@@ -118,9 +118,7 @@ public class SetupCanvasController : MonoBehaviour {
 			//initialize UI elements
 			camClusterDict [curComputerConfig].toggleButton.isOn = true;
 
-			screenDropdownDict [DisplayConfig.Terminal].dropdown.value = terminalCam.targetDisplay;
-			screenDropdownDict [DisplayConfig.LeftCam].dropdown.value = camClusterDict [curComputerConfig].leftCam.targetDisplay;
-			screenDropdownDict [DisplayConfig.RightCam].dropdown.value = camClusterDict [curComputerConfig].rightCam.targetDisplay;
+            AssignDropdownUIValues();
 
 			/*foreach (ScreenConfig config in screenDropdownDict.Keys) {
 				screenDropdownDict[key].dropdown.value = camClusterDict[curComputerConfig].	
@@ -131,6 +129,12 @@ public class SetupCanvasController : MonoBehaviour {
 			}
 			*/
 		}
+
+        public void AssignDropdownUIValues() {
+            screenDropdownDict[DisplayConfig.Terminal].dropdown.value = terminalCam.targetDisplay;
+            screenDropdownDict[DisplayConfig.LeftCam].dropdown.value = camClusterDict[curComputerConfig].leftCam.targetDisplay;
+            screenDropdownDict[DisplayConfig.RightCam].dropdown.value = camClusterDict[curComputerConfig].rightCam.targetDisplay;
+        }
 
         public void SetComputer(ComputerConfig newConfig) {
 
@@ -248,7 +252,7 @@ public class SetupCanvasController : MonoBehaviour {
 
 			//displayManager.GetIndexOfDisplayConfig (DisplayConfig.Terminal);
 
-			setupCanvas.targetDisplay = displayIndex;
+			//setupCanvas.targetDisplay = displayIndex;
 			//setupCanvas.worldCamera = 
 			//setupCanvas.worldCamera = displayManager.terminalCam;
 		}
@@ -257,6 +261,12 @@ public class SetupCanvasController : MonoBehaviour {
 		displayManager.SetDisplay (displayToSwapConfig, oldDisplayConfig);
 
 
-	}
+
+        setupCanvas.targetDisplay = displayManager.terminalCam.targetDisplay;
+        setupCanvas.worldCamera = displayManager.terminalCam;
+
+        displayManager.AssignDropdownUIValues();
+
+    }
 
 }
