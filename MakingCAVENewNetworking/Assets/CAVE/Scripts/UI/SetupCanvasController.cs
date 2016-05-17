@@ -248,23 +248,17 @@ public class SetupCanvasController : MonoBehaviour {
 		//grab the current Display Index of the display we're moving, before we move it
 		int oldDisplayConfig = displayManager.GetIndexOfDisplayConfig (screen);
 
-		if (screen == DisplayConfig.Terminal) {
-
-			//displayManager.GetIndexOfDisplayConfig (DisplayConfig.Terminal);
-
-			//setupCanvas.targetDisplay = displayIndex;
-			//setupCanvas.worldCamera = 
-			//setupCanvas.worldCamera = displayManager.terminalCam;
-		}
-
+		//swap displays
         displayManager.SetDisplay(screen, displayIndex);
 		displayManager.SetDisplay (displayToSwapConfig, oldDisplayConfig);
 
 
+		//UNCOMMNENT THESE TWO LINES WHEN 5.4 COMES OUT TO GET THE CANVAS TO SWITCH ACROSS DISPLAYS
+        //setupCanvas.targetDisplay = displayManager.terminalCam.targetDisplay;
+        //setupCanvas.worldCamera = displayManager.terminalCam;
 
-        setupCanvas.targetDisplay = displayManager.terminalCam.targetDisplay;
-        setupCanvas.worldCamera = displayManager.terminalCam;
 
+		//Update the UI
         displayManager.AssignDropdownUIValues();
 
     }
