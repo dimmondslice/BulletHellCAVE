@@ -3,6 +3,11 @@ using System.Collections;
 
 public class DisplaySetup : MonoBehaviour 
 {
+	//
+	//
+	//this script is just used on start up to activate our extra displays
+	//
+	//
     void Awake()
     {
         //active the projects displays
