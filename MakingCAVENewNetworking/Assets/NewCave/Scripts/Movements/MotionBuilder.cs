@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 [System.Serializable]
 public class Orientation {
@@ -145,6 +148,7 @@ public class MotionBuilder : MonoBehaviour {
 	}
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(MotionBuilder))]
 public class MotionBuilderEditor : Editor {
 
@@ -349,3 +353,5 @@ public class NewMotionWindow : EditorWindow {
 		window.motionBuilder = editor.motionBuilder;
 	}
 }
+
+#endif

@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 [ExecuteInEditMode]
 public class MotionController : MonoBehaviour {
@@ -86,6 +89,7 @@ public class MotionController : MonoBehaviour {
 	}
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(MotionController))]
 public class MotionControllerEditor : Editor {
 
@@ -210,3 +214,4 @@ public class MotionControllerEditor : Editor {
 	}*/
 
 }
+#endif

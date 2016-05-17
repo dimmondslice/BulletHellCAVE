@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 [System.Serializable]
+[CreateAssetMenu]
 public class _LevelData : ScriptableObject {
 
 	[SerializeField]
@@ -11,11 +15,12 @@ public class _LevelData : ScriptableObject {
 
 	[SerializeField]
 	public int active_index;
-
+	/*
 	[MenuItem("Assets/Create/_LevelData")]
 	public static void CreateAsset() {
 		ScriptableObjectUtility.CreateAsset<_LevelData>();
 	}
+	*/
 
 	public void Initialize() {
 		if (motions == null) {
@@ -50,8 +55,12 @@ public class _LevelData : ScriptableObject {
 	}
 
 	public void Save() {
+		
+	#if UNITY_EDITOR
 		EditorUtility.SetDirty(this);
 		AssetDatabase.SaveAssets();
+	#endif
+
 	}
 
 	public List<SerializedMotion> Motions() {
