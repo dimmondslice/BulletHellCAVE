@@ -4,10 +4,15 @@
 //#undef DEBUGS_ENABLED
 
 using UnityEngine;
-using UnityEngine.Networking;
 
-//[RequireComponent(typeof(NetworkIdentity))]
-//[RequireComponent(typeof(NetworkTransform))]
+//This script is used to have objects follow the supplied position and rotation from a tracker object
+//if the tracker object supplied does not exist there will be a warning thrown
+//ER_SyncPosition should be checked from the editor if you want the transform on this game object to set its position every frame
+//based off a tracker object
+//ER_SyncRotation should be checked from the editor if you want the transform on this game object to set its rotation every frmae
+//based off a tracker object
+//
+
 public class SyncWithTrackerObj : MonoBehaviour 
 {
 	public string ER_syncedObjName;
