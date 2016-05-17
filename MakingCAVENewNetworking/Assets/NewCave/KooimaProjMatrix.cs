@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 [ExecuteInEditMode]
 public class KooimaProjMatrix : MonoBehaviour {
@@ -12,28 +11,37 @@ public class KooimaProjMatrix : MonoBehaviour {
 	public enum eyeOffset{left, right};
 	public eyeOffset whichEyeIfStereo = eyeOffset.left;
 	
-	Transform trackerPosition;
+	Transform visorPosition;
 	bool stereo;
 	float interpupillaryDistance;
 	Vector3 viewingLocation;
+
+	//reference to the camera properties located on the projection root transform (above this transform)
+	private CameraProperties camProp;
+	//reference to the camera on this gameobject
+	private Camera cam;
+
+	void Awake()
+	{
+		cam = GetComponent<Camera>();
+		camProp = GetComponentInParent<CameraProperties>();
+		visorPosition = camProp.trackerTransform;
+	}
 	
-	public void LateUpdate () {
-		Camera cam = GetComponent<Camera>();
-		
-		//get new tracker position (as updated over the network)
-		//getting it off the "ViewUpdate" component on the projection root (parent), along with IPD if needed
-		trackerPosition = transform.parent.GetComponent<ViewUpdate>().trackerTransform;
-		stereo = transform.parent.GetComponent<ViewUpdate>().stereo;
-		interpupillaryDistance = transform.parent.GetComponent<ViewUpdate>().interpupillaryDistance;
+	public void LateUpdate ()
+	{	
+		//only setting these every frame in case games want to have options to enable/disable these at runtime	
+		stereo = camProp.stereo;
+		interpupillaryDistance = camProp.interpupillaryDistance;
 		
 		if (stereo){
 			if (whichEyeIfStereo == eyeOffset.left){
-				cam.transform.localPosition = new Vector3( trackerPosition.localPosition.x -interpupillaryDistance/2, trackerPosition.localPosition.y, trackerPosition.localPosition.z);
+				cam.transform.localPosition = new Vector3( visorPosition.localPosition.x -interpupillaryDistance/2, visorPosition.localPosition.y, visorPosition.localPosition.z);
 				
 				viewingLocation = new Vector3(0f, 0f, 0f);
 			}
 			else{
-				cam.transform.localPosition = new Vector3( trackerPosition.localPosition.x +interpupillaryDistance/2, trackerPosition.localPosition.y, trackerPosition.localPosition.z);
+				cam.transform.localPosition = new Vector3( visorPosition.localPosition.x +interpupillaryDistance/2, visorPosition.localPosition.y, visorPosition.localPosition.z);
 				
 				viewingLocation = new Vector3(0f, 0f, 0f);
 			}
